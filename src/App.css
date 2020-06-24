@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 
+* {
+  font-family: "Quicksand", sans-serif !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --lightBlue: #e6fcff;
   --mainBlue: #00b7d4;
@@ -8,13 +15,6 @@
   --darkGrey: #2d3a54;
   --mainSpacing: 0.3rem;
   --mainTransition: all 0.3s ease-in-out;
-}
-
-* {
-  font-family: "Quicksand", sans-serif !important;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 .scroll-btn {

@@ -23,9 +23,9 @@ export const TimelineWrapper = styled.div`
 
   /* The actual timeline (the vertical ruler) */
   .timelineTitle {
-    position: relative;
     max-width: 700px;
     margin: 0 auto;
+    padding: 0 30px;
   }
 
   .timeline {
@@ -101,9 +101,6 @@ export const TimelineWrapper = styled.div`
 
   /* Media queries - Responsive timeline on screens less than 600px wide */
   @media screen and (max-width: 800px) {
-    .timelineTitle {
-      left: 31px;
-    }
     /* Place the timelime to the left */
     .timeline::after {
       left: 31px;
