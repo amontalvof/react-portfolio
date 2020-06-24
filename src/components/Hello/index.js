@@ -10,7 +10,6 @@ import img from "../../assets/images/mainImgBW.jpg";
 export default function index() {
   return (
     <ParalaxWrapper img={bgimg}>
-      <div className="parallax"></div>
       <Element name="hello">
         <div className="flex-container">
           <div>

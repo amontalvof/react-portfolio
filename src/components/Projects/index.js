@@ -26,8 +26,6 @@ export default function Projects() {
           </div>
         </div>
       </Element>
-
-      <div className="parallax"></div>
     </ProjectsWrapper>
   );
 }

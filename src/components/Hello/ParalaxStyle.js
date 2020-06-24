@@ -9,7 +9,7 @@ export const ParalaxWrapper = styled.div`
         rgba(0, 0, 0, 0.3)
       ),
       url(${(props) => props.img});
-    min-height: 150px;
+    min-height: 300px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -23,14 +23,13 @@ export const ParalaxWrapper = styled.div`
       rgba(22, 21, 105),
       rgba(0, 183, 212)
     );
+    padding-top: 80px;
     display: flex;
     flex-flow: row wrap;
-    /*background-color: DodgerBlue;*/
     justify-content: center;
   }
 
   .flex-container > div {
-    /*background-color: #f1f1f1;*/
     width: 500px;
     margin: 30px;
   }
@@ -58,7 +57,10 @@ export const ParalaxWrapper = styled.div`
   }
 
   @media screen and (min-width: 767px) {
-    /*padding-top: 130px;*/
+    .flex-container {
+      padding-top: 100px;
+    }
+
     h1 {
       font-size: 50px;
       font-weight: 900;

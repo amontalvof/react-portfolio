@@ -10,7 +10,7 @@ export const ProjectsWrapper = styled.div`
       ),
       url(${(props) => props.img});
 
-    min-height: 150px;
+    min-height: 300px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
