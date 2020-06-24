@@ -3,13 +3,13 @@ import styled from "styled-components";
 export const CardWrapper = styled.div`
   .polaroid {
     border-radius: 5px;
-    width: 80%;
+    width: 100%;
     background-color: var(--mainWhite);
     box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 1);
     transition: box-shadow 0.5s;
     will-change: transform;
     border: 3px solid var(--mainWhite);
-    margin-bottom: 25px;
+    margin-bottom: 30px;
   }
 
   .polaroid:hover {
