@@ -1,14 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+//import './index.css';
+import App from "./App";
+import * as serviceWorker from "./serviceWorker";
+import { TimelineProvider } from "./context/timeline";
+import { SkillsProvider } from "./context/skills";
+import { ProjectsProvider } from "./context/projects";
+import { ScrollyProvider } from "./context/scrolly";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ScrollyProvider>
+      <TimelineProvider>
+        <SkillsProvider>
+          <ProjectsProvider>
+            <App />
+          </ProjectsProvider>
+        </SkillsProvider>
+      </TimelineProvider>
+    </ScrollyProvider>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change

@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+:root {
+  --lightBlue: #e6fcff;
+  --mainBlue: #00b7d4;
+  --darkBlue: #161569;
+  --mainWhite: #f6fcfc;
+  --darkGrey: #2d3a54;
+  --mainSpacing: 0.3rem;
+  --mainTransition: all 0.3s ease-in-out;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  font-family: "Quicksand", sans-serif !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.scroll-btn {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  background: var(--darkGrey);
+  color: var(--mainBlue);
+  z-index: -100;
+  opacity: 0;
+  transition: all 0.3s linear;
+  font-size: 1.5rem;
+  line-height: 0;
+  padding: 0.3rem 0.5rem;
+  cursor: pointer;
+}
+.show-scroll-btn {
+  z-index: 100;
+  opacity: 1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.show-scroll-btn:hover {
+  cursor: pointer;
 }
