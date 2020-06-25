@@ -1,5 +1,4 @@
 import React from "react";
-import { Element } from "react-scroll";
 import { ResumeWrapper } from "./ResumeStyle";
 import Timeline from "../Timeline";
 import Title from "../Title";
@@ -9,9 +8,7 @@ export default function index() {
   return (
     <ResumeWrapper>
       <React.Fragment>
-        <Element name="resume">
-          <Title title={"Resume"} />
-        </Element>
+        <Title title={"Resume"} />
         <br />
         <Timeline title={"employment"} />
         <br />

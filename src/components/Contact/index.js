@@ -1,6 +1,6 @@
 import React from "react";
 import { Element } from "react-scroll";
-import { FaLinkedin, FaFacebook, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import Title from "../Title";
 import { ContactWrapper } from "./ContactStyle";
 
@@ -8,27 +8,27 @@ export default function index() {
   return (
     <ContactWrapper>
       <Element name="contact">
-        <Title title="Get in touch" white={true} />
+        <Title title="Contact" white={true} />
       </Element>
       <br />
       <div>
-        <a className="iconosSociales" href={"https://www.facebook.com/"}>
-          <FaFacebook />
-        </a>
-        <a className="iconosSociales" href={"https://www.linkedin.com/"}>
+        <a
+          className="iconosSociales"
+          href={
+            "https://www.linkedin.com/in/andy-montalvo-fern%C3%A1ndez-6a9a37148/"
+          }
+        >
           <FaLinkedin />
         </a>
-        <a className="iconosSociales" href={"https://www.github.com/"}>
+        <a className="iconosSociales" href={"https://github.com/amontalvof"}>
           <FaGithub />
         </a>
       </div>
-      <div className="flex-container">
-        <div>
-          <h3>PHONE: +52 461 253 4450</h3>
-        </div>
-        <div>
-          <h3>EMAIL: andy@mail.com</h3>
-        </div>
+      <div>
+        <h3>Phone: +52 461 253 4450</h3>
+      </div>
+      <div>
+        <h3>Email: andy.montalvowd@gmail.com</h3>
       </div>
       <div>
         <p>

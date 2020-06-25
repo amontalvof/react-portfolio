@@ -1,38 +1,39 @@
 export const employment = [
   {
     id: 1,
-    title: "Data Base Administrator",
-    place: "Etecsa",
-    date: 2017,
+    title: "Web Developer and Database Administrator",
+    place: "ETECSA- Empresa de Telecomunicaciones de Cuba S.A. Havana, Cuba",
+    date: "06/2017 - 12/2018",
     description:
-      "Pug master cleanse iceland venmo street art pabst. Four loko readymade cardigan semiotics. Master cleanse tumeric pinterest, biodiesel celiac bespoke cold-pressed waistcoat iceland tumblr hella affogato mixtape. Hashtag hell of ugh, mustache vape roof party umami trust fund butcher plaid. Venmo tumblr authentic, tattooed fashion axe celiac unicorn chia. Before they sold out swag tacos offal, tote bag trust fund fixie quinoa copper mug. Lyft food truck live-edge thundercats seitan bespoke.",
+      "Specialized in web development and database administration using PHP/CodeIgniter, Microsoft SQL Server, MySQL, and PostgreSQL. Conducted quality assurance tests to look for errors, developing and implementing effective solutions to the issues. Worked on back-end development tasks, and performed regular maintenance, troubleshooting, system restores, and system backups when necessary. Oversaw database system development to ensure requirements were met and modifications were made when necessary.",
   },
   {
     id: 2,
-    title: "Web Developer",
-    place: "Ministerio",
-    date: 2016,
+    title: "Front-end Programmer",
+    place: "Ministerio del Transporte. Havana, Cuba",
+    date: "09/2016 – 06/2017",
     description:
-      "Pug master cleanse iceland venmo street art pabst. Four loko readymade cardigan semiotics. Master cleanse tumeric pinterest, biodiesel celiac bespoke cold-pressed waistcoat iceland tumblr hella affogato mixtape. Hashtag hell of ugh, mustache vape roof party umami trust fund butcher plaid. Venmo tumblr authentic, tattooed fashion axe celiac unicorn chia. Before they sold out swag tacos offal, tote bag trust fund fixie quinoa copper mug. Lyft food truck live-edge thundercats seitan bespoke.",
+      "Specialized in HTML5, CSS3, and JavaScript. Framework: Bootstrap. Collaborated with designers and other team members to create clean interfaces and to optimize the experience and interactions of the user. Completed front-end development tasks and ensured user experience design was incorporated into websites for optimal user accessibility. Remained up to date on current development practices and standards to produce only the latest and highest-quality work.",
   },
 ];
 
 export const education = [
   {
     id: 1,
-    title: "Master",
-    place: "Technological Institute of Celaya",
-    date: 2019,
+    title: "Master of Science in Electronics Engineering",
+    place: "Technological Institute of Celaya. Celaya, Mexico",
+    date: "01/2019 - 12/2021",
     description:
-      "Pug master cleanse iceland venmo street art pabst. Four loko readymade cardigan semiotics. Master cleanse tumeric pinterest, biodiesel celiac bespoke cold-pressed waistcoat iceland tumblr hella affogato mixtape. Hashtag hell of ugh, mustache vape roof party umami trust fund butcher plaid. Venmo tumblr authentic, tattooed fashion axe celiac unicorn chia. Before they sold out swag tacos offal, tote bag trust fund fixie quinoa copper mug. Lyft food truck live-edge thundercats seitan bespoke.",
+      "Fields of study: Electronics, Deep Learning and Computer Vision using Python.",
   },
   {
     id: 2,
-    title: "Engineering",
-    place: "Cujae",
-    date: 2011,
+    title: "Telecommunication and Electronics Engineer",
+    place:
+      "José Antonio Echeverría Technological University of Havana-Cujae. Havana, Cuba",
+    date: "09/2011 - 06/2016",
     description:
-      "Pug master cleanse iceland venmo street art pabst. Four loko readymade cardigan semiotics. Master cleanse tumeric pinterest, biodiesel celiac bespoke cold-pressed waistcoat iceland tumblr hella affogato mixtape. Hashtag hell of ugh, mustache vape roof party umami trust fund butcher plaid. Venmo tumblr authentic, tattooed fashion axe celiac unicorn chia. Before they sold out swag tacos offal, tote bag trust fund fixie quinoa copper mug. Lyft food truck live-edge thundercats seitan bespoke.",
+      "Thesis: “Vibration measurement for leak detection in water distribution networksˮ. Focus on digital signal processing using Python.",
   },
 ];
 
@@ -50,25 +51,45 @@ export const leng = [
   {
     id: 3,
     title: "JAVASCRIPT",
+    porciento: 80,
+  },
+  {
+    id: 4,
+    title: "PHP",
+    porciento: 70,
+  },
+  {
+    id: 5,
+    title: "PYTHON",
     porciento: 70,
   },
 ];
 
 export const fram = [
   {
-    id: 4,
-    title: "REACT",
+    id: 6,
+    title: "SQL",
     porciento: 70,
   },
   {
-    id: 5,
+    id: 7,
     title: "BOOTSTRAP",
     porciento: 80,
   },
   {
-    id: 6,
-    title: "GITHUB",
+    id: 8,
+    title: "REACT",
+    porciento: 80,
+  },
+  {
+    id: 9,
+    title: "CODEIGNITER",
     porciento: 70,
+  },
+  {
+    id: 10,
+    title: "GITHUB",
+    porciento: 90,
   },
 ];
 

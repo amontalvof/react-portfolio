@@ -20,12 +20,12 @@ export default function index() {
 
             <br />
             <p>
-              I am Junior Web developer able to build a Web presence from the
-              ground up - from concept, navigation, layout and programming to UX
-              and SEO. Skilled at writing well-designed, testable and efficient
-              code using current best practices in Web development. Fast
-              learner, hard worker and team player who is proficient in an array
-              of scripting languages and multimedia Web tools.
+              I am Junior Web developer able to build a Website from the ground
+              up - from concept, navigation, layout and programming to UX.
+              Skilled at writing well-designed, and efficient code using current
+              best practices in Web development. Fast learner, hard worker and
+              team player who is proficient in an array of scripting languages
+              such as JavaScript, PHP and Python.
             </p>
             <br />
             <Link
@@ -45,7 +45,9 @@ export default function index() {
           </div>
         </div>
       </Element>
-      <div className="parallax"></div>
+      <Element name="resume">
+        <div className="parallax"></div>
+      </Element>
     </ParalaxWrapper>
   );
 }

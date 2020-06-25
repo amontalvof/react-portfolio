@@ -11,21 +11,21 @@ export default function Projects() {
 
   return (
     <ProjectsWrapper img={bgimg}>
-      <div className="parallax"></div>
       <Element name="projects">
-        <div className="projContainer">
-          <Title title={"My Projects"} white={true} />
-          <div className="flex-container">
-            {conProjects.map((item) => {
-              return (
-                <div key={item.id}>
-                  <Card project={item} />
-                </div>
-              );
-            })}
-          </div>
-        </div>
+        <div className="parallax"></div>
       </Element>
+      <div className="projContainer">
+        <Title title={"My Projects"} white={true} />
+        <div className="flex-container">
+          {conProjects.map((item) => {
+            return (
+              <div key={item.id}>
+                <Card project={item} />
+              </div>
+            );
+          })}
+        </div>
+      </div>
     </ProjectsWrapper>
   );
 }

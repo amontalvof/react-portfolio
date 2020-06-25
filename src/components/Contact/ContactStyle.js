@@ -5,18 +5,6 @@ export const ContactWrapper = styled.div`
   text-align: center;
   box-shadow: 0 -5px 5px var(--mainBlue);
 
-  .flex-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-  }
-
-  .flex-container > div {
-    width: 300px;
-    margin: 10px;
-    text-align: center;
-  }
-
   h3,
   p {
     color: var(--mainWhite);
@@ -28,7 +16,7 @@ export const ContactWrapper = styled.div`
     font-size: 30px;
     color: var(--mainWhite);
     transition: all 0.3s linear;
-    padding: 0 50px 0;
+    padding: 0 30px 0;
   }
   .iconosSociales:hover {
     color: ${(props) => props.theme.rainbow.palette.brand.main};
@@ -36,6 +24,7 @@ export const ContactWrapper = styled.div`
   }
 
   @media (max-width: 450px) {
+    h3,
     p {
       font-size: 16px;
     }
