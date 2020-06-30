@@ -22,7 +22,7 @@ export const education = [
     id: 1,
     title: "Master of Science in Electronics Engineering",
     place: "Technological Institute of Celaya. Celaya, Mexico",
-    date: "01/2019 - 12/2020",
+    date: "01/2019 - 01/2021",
     description:
       "Fields of study: Electronics, Deep Learning and Computer Vision using Python.",
   },
