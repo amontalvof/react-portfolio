@@ -99,13 +99,13 @@ export const proj = [
     tech: "REACT",
     alt: "Antique Tech Store",
     img: "./img/P_ATS.jpg",
-    url: "https://amf-react-antique-tech-store.netlify.app",
+    url: "https://am-react-antique-tech-store.netlify.app",
   },
   {
     id: 2,
     tech: "REACT",
     alt: "Technology Store",
     img: "./img/P_TS.jpg",
-    url: "https://amf-react-technology-store.netlify.app",
+    url: "https://am-react-technology-store.netlify.app",
   },
 ];
