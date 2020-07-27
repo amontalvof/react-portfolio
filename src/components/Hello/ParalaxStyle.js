@@ -20,8 +20,8 @@ export const ParalaxWrapper = styled.div`
   .flex-container {
     background: linear-gradient(
       to top right,
-      rgba(22, 21, 105) 30%,
-      rgba(0, 183, 212) 70%
+      rgba(22, 21, 105) 20%,
+      rgba(0, 183, 212) 80%
     );
     padding-top: 80px;
     display: flex;
