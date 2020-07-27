@@ -21,8 +21,8 @@ export const ProjectsWrapper = styled.div`
   .projContainer {
     background: linear-gradient(
       to top right,
-      rgba(0, 183, 212),
-      rgba(22, 21, 105)
+      rgba(0, 183, 212) 20%,
+      rgba(22, 21, 105) 80%
     );
   }
 
