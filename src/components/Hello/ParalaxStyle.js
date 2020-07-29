@@ -1,4 +1,14 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const typing = keyframes`
+    0% { width: 0 }
+  100% { width: 100%}
+`;
+
+const blinkingCursor = keyframes`
+   0% { opacity: 0 }
+  50% { opacity: 1 }
+`;
 
 export const ParalaxWrapper = styled.div`
   .parallax {
@@ -54,6 +64,16 @@ export const ParalaxWrapper = styled.div`
     font-size: 16px;
     color: var(--mainWhite);
     letter-spacing: var(--mainSpacing);
+  }
+
+  #enlinea {
+    animation: ${blinkingCursor} 1s step-end infinite;
+  }
+
+  #typewriter {
+    animation: ${typing} 2s steps(14);
+    overflow: hidden;
+    white-space: nowrap;
   }
 
   @media screen and (min-width: 767px) {

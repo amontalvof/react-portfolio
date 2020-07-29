@@ -16,8 +16,9 @@ export default function index() {
             <img src={img} alt="profile" />
           </div>
           <div style={{ flexBasis: "700px" }}>
-            <h1>Andy Montalvo</h1>
-
+            <h1 id="typewriter">
+              Andy Montalvo<span id="enlinea">_</span>
+            </h1>
             <br />
             <p>
               I am Junior Web developer able to build a Website from the ground
