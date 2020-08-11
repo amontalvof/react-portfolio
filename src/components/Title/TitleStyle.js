@@ -4,7 +4,7 @@ export const TitleWrapper = styled.div`
   text-align: center;
 
   .titleResume {
-    padding: 20px 30px 0;
+    padding: 50px 30px 0;
     font-size: 30px;
     color: ${(props) => (props.white ? "var(--mainWhite)" : "var(--darkGrey)")};
     letter-spacing: var(--mainSpacing);
