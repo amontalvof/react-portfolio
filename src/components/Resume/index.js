@@ -1,14 +1,18 @@
 import React from "react";
+import { Element } from "react-scroll";
 import { ResumeWrapper } from "./ResumeStyle";
 import Timeline from "../Timeline";
 import Title from "../Title";
-import Skills from "../Skills";
+//import Skills from "../Skills";
+import SkillsCircle from "../SkillsCircle";
 
 export default function index() {
   return (
     <ResumeWrapper>
       <React.Fragment>
-        <Title title={"Resume"} />
+        <Element name="resume">
+          <Title title={"Resume"} />
+        </Element>
         <br />
         <Timeline title={"employment"} />
         <br />
@@ -16,7 +20,7 @@ export default function index() {
         <br />
         <Title title={"General Skills"} />
         <br />
-        <Skills />
+        <SkillsCircle />
         <br />
       </React.Fragment>
     </ResumeWrapper>

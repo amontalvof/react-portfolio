@@ -46,9 +46,7 @@ export default function index() {
           </div>
         </div>
       </Element>
-      <Element name="resume">
-        <div className="parallax"></div>
-      </Element>
+      <div className="parallax"></div>
     </ParalaxWrapper>
   );
 }

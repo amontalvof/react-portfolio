@@ -13,7 +13,7 @@ export const TitleWrapper = styled.div`
 
   @media screen and (min-width: 767px) {
     .titleResume {
-      padding: 20px 200px 0;
+      padding: 50px 200px 0;
       font-size: 35px;
     }
   }
