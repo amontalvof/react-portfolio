@@ -50,7 +50,7 @@ export const ParalaxWrapper = styled.div`
     display: block;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: -20px 20px var(--lightBlue);
+    box-shadow: -20px -20px var(--lightBlue);
   }
 
   h1 {
