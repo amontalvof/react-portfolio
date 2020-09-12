@@ -12,6 +12,7 @@ import {
   DiMysql,
   DiPostgresql,
 } from "react-icons/di";
+import { SiJest } from "react-icons/si";
 import { FaPhp } from "react-icons/fa";
 import { SkillsCircleWrapper } from "./SkillsCircleStyle";
 import img from "../../assets/images/darkBlue.svg";
@@ -21,7 +22,7 @@ export default function index() {
     <SkillsCircleWrapper>
       {/*LANGUAGES*/}
       <div className="content">
-        <div className="circle" style={{ background: "#F16529" }}>
+        <div className="circle" style={{ background: "#E54C21" }}>
           <div className="iconoTec">
             <div>HTML5</div>
             <div style={{ fontSize: "30px" }}>
@@ -29,7 +30,7 @@ export default function index() {
             </div>
           </div>
         </div>
-        <div className="circle" style={{ background: "#2965f1" }}>
+        <div className="circle" style={{ background: "#0371BC" }}>
           <div className="iconoTec">
             <div>CSS3</div>
             <div style={{ fontSize: "30px" }}>
@@ -37,7 +38,7 @@ export default function index() {
             </div>
           </div>
         </div>
-        <div className="circle" style={{ background: "#edd32c" }}>
+        <div className="circle" style={{ background: "#E8B603" }}>
           <div className="iconoTec">
             <div>JAVASCRIPT</div>
             <div style={{ fontSize: "20px" }}>
@@ -45,7 +46,7 @@ export default function index() {
             </div>
           </div>
         </div>
-        <div className="circle" style={{ background: "#787CB5" }}>
+        <div className="circle" style={{ background: "#777CB5" }}>
           <div className="iconoTec">
             <div>PHP</div>
             <div style={{ fontSize: "35px" }}>
@@ -53,7 +54,7 @@ export default function index() {
             </div>
           </div>
         </div>
-        <div className="circle" style={{ background: "#006600" }}>
+        <div className="circle" style={{ background: "#3476AA" }}>
           <div className="iconoTec">
             <div>PYTHON</div>
             <div style={{ fontSize: "30px" }}>
@@ -64,7 +65,7 @@ export default function index() {
       </div>
       {/*FRAMEWORKS*/}
       <div className="content">
-        <div className="circle" style={{ background: "#602C50" }}>
+        <div className="circle" style={{ background: "#553B7D" }}>
           <div className="iconoTec">
             <div>BOOTSTRAP</div>
             <div style={{ fontSize: "30px" }}>
@@ -72,7 +73,15 @@ export default function index() {
             </div>
           </div>
         </div>
-        <div className="circle" style={{ background: "#06c8f9 " }}>
+        <div className="circle" style={{ background: "#944058" }}>
+          <div className="iconoTec">
+            <div>JEST</div>
+            <div style={{ fontSize: "25px" }}>
+              <SiJest />
+            </div>
+          </div>
+        </div>
+        <div className="circle" style={{ background: "#61DCFC " }}>
           <div className="iconoTec">
             <div>REACT</div>
             <div style={{ fontSize: "30px" }}>
@@ -80,7 +89,7 @@ export default function index() {
             </div>
           </div>
         </div>
-        <div className="circle" style={{ background: "#DD4814" }}>
+        <div className="circle" style={{ background: "#E73800" }}>
           <div className="iconoTec">
             <div>CODEIGNITER</div>
             <div style={{ fontSize: "20px" }}>
@@ -88,7 +97,7 @@ export default function index() {
             </div>
           </div>
         </div>
-        <div className="circle" style={{ background: "#3E2C00" }}>
+        <div className="circle" style={{ background: "#3F2C00" }}>
           <div className="iconoTec">
             <div>GIT</div>
             <div style={{ fontSize: "30px" }}>
@@ -99,7 +108,7 @@ export default function index() {
       </div>
       {/*FRAMEWORKS*/}
       <div className="content">
-        <div className="circle" style={{ background: "#005580 " }}>
+        <div className="circle" style={{ background: "#336791 " }}>
           <div className="iconoTec">
             <div>POSTGRE</div>
             <div>SQL</div>
@@ -108,7 +117,7 @@ export default function index() {
             </div>
           </div>
         </div>
-        <div className="circle" style={{ background: "#990000" }}>
+        <div className="circle" style={{ background: "#B52A2A" }}>
           <div className="iconoTec">
             <div>MICROSOFT</div>
             <div>SQL SERVER</div>
@@ -117,7 +126,7 @@ export default function index() {
             </div>
           </div>
         </div>
-        <div className="circle" style={{ background: "#F29111" }}>
+        <div className="circle" style={{ background: "#DD8A00" }}>
           <div className="iconoTec">
             <div>MYSQL</div>
             <div style={{ fontSize: "30px" }}>
