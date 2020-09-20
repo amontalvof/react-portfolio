@@ -2,10 +2,12 @@ import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import { Application } from "react-rainbow-components";
 import "./App.css";
+import "./izmir.min.css";
 import Navbar from "./components/Navbar";
 import Resume from "./components/Resume";
 import Hello from "./components/Hello";
-import Projects from "./components/Projects";
+//import Projects from "./components/Projects";
+import ProjectsHover from "./components/ProjectsHover";
 import Contact from "./components/Contact";
 import ScrollButton from "./components/ScrollButton";
 
@@ -27,7 +29,7 @@ function App() {
           <Navbar />
           <Hello />
           <Resume />
-          <Projects />
+          <ProjectsHover />
           <Contact />
           <ScrollButton />
         </Application>

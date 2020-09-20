@@ -96,14 +96,34 @@ export const fram = [
 export const proj = [
   {
     id: 1,
-    tech: "REACT",
+    type: "main",
+    tech:
+      "React Rainbow is an open source project, with a collection of components that will reliably help you build your application. I'm one of the collaborators.",
+    alt: "React Rainbow Component",
+    img: "./img/P_RRC.jpg",
+    url: "https://react-rainbow.io/#/GettingStarted",
+  },
+  {
+    id: 2,
+    type: "not for now",
+    tech: "React, Styled Components, Jest, Enzyme, Cypress, Firebase ...",
+    alt: "Rainbow Modules",
+    img: "./img/P_RM.jpg",
+    url:
+      "https://rainbow-modules.web.app/?path=/story/introduction-getting-started-overview--page",
+  },
+  {
+    id: 3,
+    type: "practice",
+    tech: "React, Styled Components",
     alt: "Antique Tech Store",
     img: "./img/P_ATS.jpg",
     url: "https://am-react-antique-tech-store.netlify.app",
   },
   {
-    id: 2,
-    tech: "REACT",
+    id: 4,
+    type: "practice",
+    tech: "React, Styled Components",
     alt: "Technology Store",
     img: "./img/P_TS.jpg",
     url: "https://am-react-technology-store.netlify.app",
