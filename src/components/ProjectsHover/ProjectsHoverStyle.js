@@ -15,5 +15,6 @@ export const ProjectsHoverWrapper = styled.div`
   .flex-container-practice > div {
     width: 600px;
     margin: 50px;
+    z-index: 2;
   }
 `;
