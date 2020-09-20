@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Element } from "react-scroll";
 import { Button } from "react-rainbow-components";
+import ParticleComponent from "./ParticleComponent";
 import { FaFileDownload } from "react-icons/fa";
 import { ParalaxWrapper } from "./ParalaxStyle";
 import bgimg from "../../assets/images/mainBgd.jpg";
@@ -11,8 +12,13 @@ export default function index() {
   return (
     <ParalaxWrapper img={bgimg}>
       <Element name="hello">
+        {window.screen.width > 1024 ? (
+          <div id="particles">
+            <ParticleComponent />
+          </div>
+        ) : null}
         <div className="flex-container">
-          <div>
+          <div style={{ zIndex: 2 }}>
             <img src={img} alt="profile" />
           </div>
           <div style={{ flexBasis: "700px" }}>

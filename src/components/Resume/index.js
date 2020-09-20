@@ -4,9 +4,10 @@ import { ResumeWrapper } from "./ResumeStyle";
 import Timeline from "../Timeline";
 import Title from "../Title";
 //import Skills from "../Skills";
-import SkillsCircle from "../SkillsCircle";
+//import SkillsCircle from "../SkillsCircle";
+import SkillsCloud from "../SkillsCloud";
 
-export default function index() {
+export default function Resume() {
   return (
     <ResumeWrapper>
       <React.Fragment>
@@ -20,7 +21,7 @@ export default function index() {
         <br />
         <Title title={"General Skills"} />
         <br />
-        <SkillsCircle />
+        <SkillsCloud />
         <br />
       </React.Fragment>
     </ResumeWrapper>

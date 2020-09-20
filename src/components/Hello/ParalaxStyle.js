@@ -11,6 +11,7 @@ const blinkingCursor = keyframes`
 `;
 
 export const ParalaxWrapper = styled.div`
+  position: relative;
   .parallax {
     /* The image used */
     background: linear-gradient(
@@ -45,6 +46,7 @@ export const ParalaxWrapper = styled.div`
   }
 
   img {
+    position: "absolute";
     max-width: 60%;
     height: auto;
     display: block;
@@ -76,6 +78,10 @@ export const ParalaxWrapper = styled.div`
     white-space: nowrap;
   }
 
+  #particles {
+    display: none;
+  }
+
   @media screen and (min-width: 767px) {
     .flex-container {
       padding-top: 100px;
@@ -88,6 +94,11 @@ export const ParalaxWrapper = styled.div`
 
     p {
       font-size: 20px;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    #particles {
+      display: block;
     }
   }
 `;
