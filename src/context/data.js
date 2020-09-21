@@ -98,8 +98,8 @@ export const proj = [
     id: 1,
     type: "main",
     tech:
-      "React Rainbow is an open source project, with a collection of components that will reliably help you build your application. I'm one of the collaborators.",
-    alt: "React Rainbow Component",
+      "React Rainbow Components is an open-source project, with a collection of components that will help you build your application in a faster way. I am one of the collaborators.",
+    alt: "React Rainbow Components",
     img: "./img/P_RRC.jpg",
     url: "https://react-rainbow.io/#/GettingStarted",
   },
