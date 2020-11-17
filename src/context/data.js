@@ -134,7 +134,7 @@ export const proj = [
 
 export const cloudSkills = [
     {
-        id: 1,
+        id: "cloudSkills1",
         technology: "HTML5",
         fontSize: {
             web: 50,
@@ -143,7 +143,7 @@ export const cloudSkills = [
         color: "#E54C21",
     },
     {
-        id: 2,
+        id: "cloudSkills2",
         technology: "CSS3",
         fontSize: {
             web: 50,
@@ -152,7 +152,7 @@ export const cloudSkills = [
         color: "#2862EA",
     },
     {
-        id: 3,
+        id: "cloudSkills3",
         technology: "JAVASCRIPT",
         fontSize: {
             web: 50,
@@ -161,7 +161,7 @@ export const cloudSkills = [
         color: "#EFD81D",
     },
     {
-        id: 4,
+        id: "cloudSkills4",
         technology: "REACT",
         fontSize: {
             web: 50,
@@ -170,7 +170,7 @@ export const cloudSkills = [
         color: "#61DCFC",
     },
     {
-        id: 6,
+        id: "cloudSkills5",
         technology: "JEST",
         fontSize: {
             web: 40,
@@ -179,7 +179,7 @@ export const cloudSkills = [
         color: "#944058",
     },
     {
-        id: 7,
+        id: "cloudSkills6",
         technology: "GIT & GITHUB",
         fontSize: {
             web: 40,
@@ -188,7 +188,7 @@ export const cloudSkills = [
         color: "#3F2C00",
     },
     {
-        id: 8,
+        id: "cloudSkills7",
         technology: "PHP",
         fontSize: {
             web: 30,
@@ -197,7 +197,7 @@ export const cloudSkills = [
         color: "#777CB5",
     },
     {
-        id: 9,
+        id: "cloudSkills8",
         technology: "PYTHON",
         fontSize: {
             web: 30,
@@ -206,7 +206,7 @@ export const cloudSkills = [
         color: "#009933",
     },
     {
-        id: 10,
+        id: "cloudSkills9",
         technology: "POSTGRESQL",
         fontSize: {
             web: 30,
@@ -215,7 +215,7 @@ export const cloudSkills = [
         color: "#336791",
     },
     {
-        id: 11,
+        id: "cloudSkills10",
         technology: "MYSQL",
         fontSize: {
             web: 30,
@@ -224,7 +224,7 @@ export const cloudSkills = [
         color: "#DD8A00",
     },
     {
-        id: 11,
+        id: "cloudSkills11",
         technology: "MICROSOFT SQL SERVER",
         fontSize: {
             web: 20,
@@ -233,7 +233,7 @@ export const cloudSkills = [
         color: "#B52A2A",
     },
     {
-        id: 12,
+        id: "cloudSkills12",
         technology: "CODEIGNITER",
         fontSize: {
             web: 20,
@@ -242,7 +242,7 @@ export const cloudSkills = [
         color: "#E73800",
     },
     {
-        id: 12,
+        id: "cloudSkills13",
         technology: "BOOTSTRAP",
         fontSize: {
             web: 20,
