@@ -12,7 +12,7 @@ const ProjectsHover = () => {
             <Element name="projects">
                 <Title title={"Main Projects"} white={true} />
             </Element>
-            <div className="flex-container-practice">
+            <div className="flex-container-main">
                 {conProjects.map((item) => {
                     if (item.type === "main") {
                         return (

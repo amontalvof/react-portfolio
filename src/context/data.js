@@ -117,15 +117,31 @@ export const proj = [
     {
         id: 3,
         type: "practice",
-        tech: "React, Styled Components",
+        tech: "React, CSS3, Material UI, Firebase",
+        alt: "Airbnb Clone",
+        img: "./img/P_ABC.jpg",
+        url: "https://react-airbnb-clone-67a8a.web.app/",
+    },
+    {
+        id: 4,
+        type: "practice",
+        tech: "React, CSS3, Firebase",
+        alt: "Netflix Clone",
+        img: "./img/P_NC.jpg",
+        url: "https://react-netflix-clone-4b7e3.web.app/",
+    },
+    {
+        id: 5,
+        type: "practice",
+        tech: "React, Styled Components, Netlify",
         alt: "Antique Tech Store",
         img: "./img/P_ATS.jpg",
         url: "https://am-react-antique-tech-store.netlify.app",
     },
     {
-        id: 4,
+        id: 6,
         type: "practice",
-        tech: "React, Styled Components",
+        tech: "React, Styled Components, Netlify",
         alt: "Technology Store",
         img: "./img/P_TS.jpg",
         url: "https://am-react-technology-store.netlify.app",
@@ -169,6 +185,7 @@ export const cloudSkills = [
         },
         color: "#61DCFC",
     },
+    //-----------------------------
     {
         id: "cloudSkills5",
         technology: "JEST",
@@ -187,6 +204,7 @@ export const cloudSkills = [
         },
         color: "#3F2C00",
     },
+    //-----------------------------
     {
         id: "cloudSkills7",
         technology: "PHP",
@@ -223,6 +241,7 @@ export const cloudSkills = [
         },
         color: "#DD8A00",
     },
+    //-----------------------------
     {
         id: "cloudSkills11",
         technology: "MICROSOFT SQL SERVER",
@@ -234,12 +253,12 @@ export const cloudSkills = [
     },
     {
         id: "cloudSkills12",
-        technology: "CODEIGNITER",
+        technology: "STYLED COMPONENTS",
         fontSize: {
             web: 20,
             mobile: 16,
         },
-        color: "#E73800",
+        color: "#E898DA",
     },
     {
         id: "cloudSkills13",
@@ -249,5 +268,32 @@ export const cloudSkills = [
             mobile: 16,
         },
         color: "#553B7D",
+    },
+    {
+        id: "cloudSkills14",
+        technology: "MATERIAL UI",
+        fontSize: {
+            web: 20,
+            mobile: 16,
+        },
+        color: "#00B0FF",
+    },
+    {
+        id: "cloudSkills15",
+        technology: "CODEIGNITER",
+        fontSize: {
+            web: 20,
+            mobile: 16,
+        },
+        color: "#E73800",
+    },
+    {
+        id: "cloudSkills16",
+        technology: "FIREBASE",
+        fontSize: {
+            web: 20,
+            mobile: 16,
+        },
+        color: "#FFCB2B",
     },
 ];
