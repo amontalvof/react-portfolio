@@ -1,12 +1,12 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { Element } from "react-scroll";
-import { Button } from "react-rainbow-components";
-import ParticleComponent from "./ParticleComponent";
-import { FaFileDownload } from "react-icons/fa";
-import { ParalaxWrapper } from "./ParalaxStyle";
-import bgimg from "../../assets/images/mainBgd.jpg";
-import img from "../../assets/images/mainImgBW.jpg";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Element } from 'react-scroll';
+import { Button } from 'react-rainbow-components';
+import ParticleComponent from './ParticleComponent';
+import { FaFileDownload } from 'react-icons/fa';
+import { ParalaxWrapper } from './ParalaxStyle';
+import bgimg from '../../assets/images/mainBgd.jpg';
+import img from '../../assets/images/mainImgBW.jpg';
 
 export default function index() {
     return (
@@ -21,13 +21,13 @@ export default function index() {
                     <div style={{ zIndex: 2 }}>
                         <img src={img} alt="profile" />
                     </div>
-                    <div style={{ flexBasis: "700px" }}>
+                    <div style={{ flexBasis: '700px' }}>
                         <h1 id="typewriter">
                             Andy Montalvo<span id="enlinea">_</span>
                         </h1>
                         <br />
                         <p>
-                            I am a Full Stack Developer able to build a Website
+                            I am a Front-end Developer able to build a Website
                             from the ground up - from concept, navigation,
                             layout and programming to UX. Skilled at writing
                             well-designed, and efficient code using current best
@@ -41,10 +41,10 @@ export default function index() {
                             to="./cv/Andy_Montalvo_CV.pdf"
                             target="_blank"
                             download
-                            style={{ textDecoration: "none" }}
+                            style={{ textDecoration: 'none' }}
                         >
                             <Button
-                                style={{ fontSize: "1.3rem" }}
+                                style={{ fontSize: '1.3rem' }}
                                 variant="outline-brand"
                                 className="rainbow-m-around_medium"
                             >

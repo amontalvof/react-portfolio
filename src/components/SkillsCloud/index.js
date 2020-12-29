@@ -1,14 +1,14 @@
-import React, { Component } from "react";
-import TagCloud from "react-tag-cloud";
+import React, { Component } from 'react';
+import TagCloud from 'react-tag-cloud';
 // import randomColor from "randomcolor";
-import { SkillsCloudWrapper } from "./SkillsCloudStyle";
-import { cloudSkills } from "../../context/data";
+import { SkillsCloudWrapper } from './SkillsCloudStyle';
+import { cloudSkills } from '../../context/data';
 
 class MyCloud extends Component {
     componentDidMount() {
         setInterval(() => {
             this.forceUpdate();
-        }, 5000);
+        }, 10000);
     }
     render() {
         return (
@@ -16,10 +16,10 @@ class MyCloud extends Component {
                 <TagCloud
                     className="tag-cloud"
                     style={{
-                        fontWeight: "bold",
+                        fontWeight: 'bold',
                         padding: 10,
-                        width: "100%",
-                        height: "100%",
+                        width: '100%',
+                        height: '100%',
                         flex: 1,
                     }}
                 >
