@@ -193,6 +193,15 @@ export const cloudSkills = [
         },
         color: '#61DCFC',
     },
+    {
+        id: 'REDUX',
+        technology: 'REDUX',
+        fontSize: {
+            web: 50,
+            mobile: 28,
+        },
+        color: '#764ABC',
+    },
     //-----------------------------
     {
         id: 'JEST',
@@ -241,15 +250,6 @@ export const cloudSkills = [
     },
     //-----------------------------
     {
-        id: 'PHP',
-        technology: 'PHP',
-        fontSize: {
-            web: 30,
-            mobile: 20,
-        },
-        color: '#777CB5',
-    },
-    {
         id: 'PYTHON',
         technology: 'PYTHON',
         fontSize: {
@@ -257,6 +257,15 @@ export const cloudSkills = [
             mobile: 20,
         },
         color: '#009933',
+    },
+    {
+        id: 'PHP',
+        technology: 'PHP',
+        fontSize: {
+            web: 30,
+            mobile: 20,
+        },
+        color: '#777CB5',
     },
     {
         id: 'FIRESTORE',
