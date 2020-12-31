@@ -104,7 +104,7 @@ export const fram = [
 
 export const proj = [
     {
-        id: 1,
+        id: 'React-Rainbow-Components',
         type: 'main',
         tech:
             'React Rainbow Components is an open-source project, with a collection of components that will help you build your application in a faster way. I am one of the collaborators.',
@@ -113,7 +113,7 @@ export const proj = [
         url: 'https://react-rainbow.io/#/GettingStarted',
     },
     {
-        id: 2,
+        id: 'Rainbow-Modules',
         type: 'main',
         tech:
             'Rainbow Modules includes a collection of components, fully integrated with Firebase, that will help you to build apps. I am one of the collaborators.',
@@ -123,7 +123,15 @@ export const proj = [
             'https://rainbow-modules.web.app/?path=/story/introduction-getting-started-overview--page',
     },
     {
-        id: 3,
+        id: 'Journal-App',
+        type: 'practice',
+        tech: 'React, Redux, Sass, Firebase, Firestore',
+        alt: 'Journal App',
+        img: './img/P_JA.jpg',
+        url: 'https://react-journal-app-b6735.web.app/',
+    },
+    {
+        id: 'Airbnb-Clone',
         type: 'practice',
         tech: 'React, CSS3, Material UI, Firebase',
         alt: 'Airbnb Clone',
@@ -131,7 +139,7 @@ export const proj = [
         url: 'https://react-airbnb-clone-67a8a.web.app/',
     },
     {
-        id: 4,
+        id: 'Netflix-Clone',
         type: 'practice',
         tech: 'React, CSS3, Firebase',
         alt: 'Netflix Clone',
@@ -139,7 +147,7 @@ export const proj = [
         url: 'https://react-netflix-clone-4b7e3.web.app/',
     },
     {
-        id: 5,
+        id: 'Antique-Tech-Store',
         type: 'practice',
         tech: 'React, Styled Components, Netlify',
         alt: 'Antique Tech Store',
@@ -147,7 +155,7 @@ export const proj = [
         url: 'https://am-react-antique-tech-store.netlify.app',
     },
     {
-        id: 6,
+        id: 'Technology-Store',
         type: 'practice',
         tech: 'React, Styled Components, Netlify',
         alt: 'Technology Store',

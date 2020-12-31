@@ -6,7 +6,7 @@ import ParticleComponent from './ParticleComponent';
 import { FaFileDownload } from 'react-icons/fa';
 import { ParalaxWrapper } from './ParalaxStyle';
 import bgimg from '../../assets/images/mainBgd.jpg';
-import img from '../../assets/images/mainImgBW.jpg';
+import img from '../../assets/images/mainImgBW.jpeg';
 
 export default function index() {
     return (
