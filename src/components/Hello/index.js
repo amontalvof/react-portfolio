@@ -38,17 +38,17 @@ export default function index() {
                         </p>
                         <br />
                         <Link
-                            to="./cv/Andy_Montalvo_CV.pdf"
+                            to="./resume/Andy_Montalvo_Resume.pdf"
                             target="_blank"
                             download
                             style={{ textDecoration: 'none' }}
                         >
                             <Button
-                                style={{ fontSize: '1.3rem' }}
+                                style={{ fontSize: '1.1rem' }}
                                 variant="outline-brand"
                                 className="rainbow-m-around_medium"
                             >
-                                <FaFileDownload /> &nbsp;DOWNLOAD CV
+                                <FaFileDownload /> &nbsp;Download Resume
                             </Button>
                         </Link>
                     </div>
