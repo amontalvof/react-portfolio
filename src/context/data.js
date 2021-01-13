@@ -123,6 +123,14 @@ export const proj = [
             'https://rainbow-modules.web.app/?path=/story/introduction-getting-started-overview--page',
     },
     {
+        id: 'BLackjack-Game',
+        type: 'practice',
+        tech: 'HTML5, CSS3, Javascript, Bootstrap, Github Pages',
+        alt: 'BLackjack Game',
+        img: './img/P_BJ.jpg',
+        url: 'https://amontalvof.github.io/javascript-blackjack/',
+    },
+    {
         id: 'Journal-App',
         type: 'practice',
         tech: 'React, Redux, Sass, Firebase, Firestore',
@@ -149,7 +157,7 @@ export const proj = [
     {
         id: 'Antique-Tech-Store',
         type: 'practice',
-        tech: 'React, Styled Components, Netlify',
+        tech: 'React, Styled Components, Netlify, React Rainbow Components',
         alt: 'Antique Tech Store',
         img: './img/P_ATS.jpg',
         url: 'https://am-react-antique-tech-store.netlify.app',
@@ -157,7 +165,7 @@ export const proj = [
     {
         id: 'Technology-Store',
         type: 'practice',
-        tech: 'React, Styled Components, Netlify',
+        tech: 'React, Styled Components, Netlify, React Rainbow Components',
         alt: 'Technology Store',
         img: './img/P_TS.jpg',
         url: 'https://am-react-technology-store.netlify.app',
