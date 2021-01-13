@@ -7,7 +7,8 @@ import Navbar from "./components/Navbar";
 import Resume from "./components/Resume";
 import Hello from "./components/Hello";
 //import Projects from "./components/Projects";
-import ProjectsHover from "./components/ProjectsHover";
+// import ProjectsHover from "./components/ProjectsHover";
+import ProjectsOwn from "./components/ProjectsOwn";
 import Contact from "./components/Contact";
 import ScrollButton from "./components/ScrollButton";
 
@@ -29,7 +30,7 @@ function App() {
           <Navbar />
           <Hello />
           <Resume />
-          <ProjectsHover />
+          <ProjectsOwn />
           <Contact />
           <ScrollButton />
         </Application>

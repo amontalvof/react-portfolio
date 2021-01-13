@@ -107,8 +107,8 @@ export const proj = [
         id: 'React-Rainbow-Components',
         type: 'main',
         tech:
-            'React Rainbow Components is an open-source project, with a collection of components that will help you build your application in a faster way. I am one of the collaborators.',
-        alt: 'React Rainbow Components',
+            'React-Rainbow-Components is an open-source project, with a collection of components that will help you build your application in a faster way. I am one of the collaborators.',
+        alt: 'React-Rainbow-Components',
         img: './img/P_RRC.jpg',
         url: 'https://react-rainbow.io/#/GettingStarted',
     },
@@ -116,8 +116,8 @@ export const proj = [
         id: 'Rainbow-Modules',
         type: 'main',
         tech:
-            'Rainbow Modules includes a collection of components, fully integrated with Firebase, that will help you to build apps. I am one of the collaborators.',
-        alt: 'Rainbow Modules',
+            'Rainbow-Modules includes a collection of components, fully integrated with Firebase, that will help you to build apps. I am one of the collaborators.',
+        alt: 'Rainbow-Modules',
         img: './img/P_RM.jpg',
         url:
             'https://rainbow-modules.web.app/?path=/story/introduction-getting-started-overview--page',
