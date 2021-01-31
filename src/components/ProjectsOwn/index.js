@@ -4,6 +4,7 @@ import { ProjectsContext } from '../../context/projects';
 import Title from '../Title';
 import CardOwn from './CardOwn';
 import { ProjectsOwnWrapper } from './ProjectsOwnStyle';
+import CarouselOwn from './CarouselOwn';
 
 const ProjectsOwn = () => {
     const { conProjects } = useContext(ProjectsContext);
@@ -26,18 +27,7 @@ const ProjectsOwn = () => {
                 })}
             </div>
             <Title title={'Other Projects'} white={true} />
-            <div className="flex-container-practice">
-                {conProjects.map((item) => {
-                    if (item.type === 'practice') {
-                        return (
-                            <div key={item.id}>
-                                <CardOwn {...item} />
-                            </div>
-                        );
-                    }
-                    return null;
-                })}
-            </div>
+            <CarouselOwn />
         </ProjectsOwnWrapper>
     );
 };

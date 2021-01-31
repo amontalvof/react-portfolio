@@ -27,9 +27,7 @@ export default function index() {
                         </h1>
                         <br />
                         <p>
-                            I am a Front-end Developer able to build a Website
-                            from the ground up - from concept, navigation,
-                            layout and programming to UX. Skilled at writing
+                            I am a Front-end Developer skilled at writing
                             well-designed, and efficient code using current best
                             practices in Web development. Fast learner, hard
                             worker and team player who is proficient in an array
