@@ -123,6 +123,15 @@ export const proj = [
             'https://rainbow-modules.web.app/?path=/story/introduction-getting-started-overview--page',
     },
     {
+        id: 'Calendar-App',
+        type: 'practice',
+        tech: 'React, Redux, Node.js, MongoDB, Bootstrap, Heroku',
+        alt: 'Calendar App',
+        img:
+            'https://res.cloudinary.com/a03m02f92/image/upload/v1613772859/portfolio/P_CalendarApp_cfgqjl.jpg',
+        url: 'https://am-mern-calendar.herokuapp.com/',
+    },
+    {
         id: 'Todo-List',
         type: 'practice',
         tech: 'Todo List Template, Javascript, Webpack, Github Pages',
@@ -251,6 +260,15 @@ export const cloudSkills = [
         },
         color: '#764ABC',
     },
+    {
+        id: 'NODE.JS',
+        technology: 'NODE.JS',
+        fontSize: {
+            web: 50,
+            mobile: 28,
+        },
+        color: '#43853D',
+    },
     //-----------------------------
     {
         id: 'JEST',
@@ -261,15 +279,15 @@ export const cloudSkills = [
         },
         color: '#944058',
     },
-    {
-        id: 'ENZYME',
-        technology: 'ENZYME',
-        fontSize: {
-            web: 40,
-            mobile: 24,
-        },
-        color: '#333333',
-    },
+    // {
+    //     id: 'ENZYME',
+    //     technology: 'ENZYME',
+    //     fontSize: {
+    //         web: 40,
+    //         mobile: 24,
+    //     },
+    //     color: '#333333',
+    // },
     {
         id: 'CYPRESS',
         technology: 'CYPRESS',
@@ -305,7 +323,7 @@ export const cloudSkills = [
             web: 30,
             mobile: 20,
         },
-        color: '#009933',
+        color: '#4584b6',
     },
     {
         id: 'PHP',
@@ -324,6 +342,15 @@ export const cloudSkills = [
             mobile: 20,
         },
         color: '#FFCB2B',
+    },
+    {
+        id: 'MONGODB',
+        technology: 'MONGODB',
+        fontSize: {
+            web: 30,
+            mobile: 20,
+        },
+        color: '#4EA94C',
     },
     {
         id: 'POSTGRESQL',
