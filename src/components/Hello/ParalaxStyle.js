@@ -1,14 +1,4 @@
-import styled, { keyframes } from 'styled-components';
-
-const typing = keyframes`
-    0% { width: 0 }
-  100% { width: 100%}
-`;
-
-const blinkingCursor = keyframes`
-   0% { opacity: 0 }
-  50% { opacity: 1 }
-`;
+import styled from 'styled-components';
 
 export const ParalaxWrapper = styled.div`
     position: relative;
@@ -56,31 +46,56 @@ export const ParalaxWrapper = styled.div`
         box-shadow: -20px -20px var(--lightBlue);
     }
 
-    h1 {
-        font-size: 25px;
-        color: var(--mainWhite);
-        letter-spacing: var(--mainSpacing);
-        font-weight: 900;
-    }
-
     p {
         font-size: 16px;
         color: var(--mainWhite);
         letter-spacing: var(--mainSpacing);
     }
 
-    #enlinea {
-        animation: ${blinkingCursor} 1s step-end infinite;
-    }
-
-    #typewriter {
-        animation: ${typing} 2s steps(14);
-        overflow: hidden;
-        white-space: nowrap;
-    }
-
     #particles {
         display: none;
+    }
+
+    #myElement {
+        font-size: 25px;
+        font-weight: 900;
+        color: var(--mainWhite);
+    }
+
+    .ityped-cursor {
+        color: var(--mainWhite);
+        font-size: 25px;
+        font-weight: 900;
+        opacity: 1;
+        -webkit-animation: blink 0.4s infinite;
+        -moz-animation: blink 0.4s infinite;
+        animation: blink 0.4s infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes blink {
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @-webkit-keyframes blink {
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @-moz-keyframes blink {
+        100% {
+            opacity: 0;
+        }
+    }
+
+    .titleNameContainer {
+        height: 60px;
+        width: 100%;
+        display: flex;
+        align-items: center;
     }
 
     @media screen and (min-width: 767px) {
@@ -88,9 +103,12 @@ export const ParalaxWrapper = styled.div`
             padding-top: 100px;
         }
 
-        h1 {
+        #myElement {
             font-size: 50px;
-            font-weight: 900;
+        }
+
+        .ityped-cursor {
+            font-size: 50px;
         }
 
         p {

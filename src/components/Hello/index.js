@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Element } from 'react-scroll';
 import { Button } from 'react-rainbow-components';
+import TypedName from './TypedName';
 // import ParticleComponent from './ParticleComponent';
 import { FaFileDownload } from 'react-icons/fa';
 import { ParalaxWrapper } from './ParalaxStyle';
@@ -22,9 +23,9 @@ export default function index() {
                         <img src={img} alt="profile" />
                     </div>
                     <div style={{ flexBasis: '700px' }}>
-                        <h1 id="typewriter">
-                            Andy Montalvo<span id="enlinea">_</span>
-                        </h1>
+                        <div className="titleNameContainer">
+                            <TypedName />
+                        </div>
                         <br />
                         <p>
                             I am a Front-end Developer skilled at writing
