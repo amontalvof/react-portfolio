@@ -5,7 +5,7 @@ export const employment = [
         place: 'Nexxtway. Guadalajara, Mexico',
         date: '04/2020 – present',
         description:
-            'Specialized in front-end development using ReactJS, and Styled Components. Conducted quality assurance tests using Jest, Enzyme and Cypress to look for errors, developing and implementing effective solutions to the issues. Implemented and maintained components in the react-rainbow-components library. Completed front-end development tasks and maintain high productivity and efficiency.',
+            'Specialized in front-end development using ReactJS, and Styled Components. Conducted quality assurance tests using Jest, Enzyme and Cypress to look for errors, developing and implementing effective solutions to the issues. Implemented and maintained components in the react-rainbow-components library. Completed front-end development tasks and maintain high productivity and efficiency using an agile methodology.',
     },
     {
         id: 'ETECSA',
@@ -241,6 +241,15 @@ export const cloudSkills = [
             mobile: 28,
         },
         color: '#EFD81D',
+    },
+    {
+        id: 'TYPESCRIPT',
+        technology: 'TYPESCRIPT',
+        fontSize: {
+            web: 50,
+            mobile: 28,
+        },
+        color: '#3178c6',
     },
     {
         id: 'REACT',
