@@ -14,7 +14,7 @@ export default function index() {
             <div>
                 <a
                     className="iconosSociales"
-                    href="https://www.linkedin.com/in/andy-montalvo-fern%C3%A1ndez-6a9a37148/"
+                    href="https://www.linkedin.com/in/andy-montalvo-6a9a37148/"
                 >
                     <FaLinkedin />
                 </a>
