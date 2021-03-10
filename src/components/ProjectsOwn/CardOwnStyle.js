@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { FaExternalLinkAlt } from 'react-icons/fa';
 
 export const CardOwnWrapper = styled.div`
     position: relative;
@@ -37,13 +38,12 @@ export const CardOwnWrapper = styled.div`
 
     p {
         font-weight: 300;
-        margin: 20px 0 0 0;
-        line-height: 25px;
+        margin: 20px 0 20px 0;
         font-size: 20px;
     }
 
     :hover {
-        transform: scale(1.05);
+        transform: scale(1.1);
     }
 
     :hover .image {
@@ -52,5 +52,17 @@ export const CardOwnWrapper = styled.div`
 
     :hover .middle {
         opacity: 1;
+    }
+`;
+
+export const StyledIcon = styled(FaExternalLinkAlt)`
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    color: var(--mainWhite);
+    transition: all 0.3s linear;
+
+    :hover {
+        color: var(--mainBlue);
     }
 `;

@@ -111,6 +111,7 @@ export const proj = [
         alt: 'React-Rainbow-Components',
         img: './img/P_RRC.jpg',
         url: 'https://react-rainbow.io/#/GettingStarted',
+        github: 'https://github.com/nexxtway/react-rainbow',
     },
     {
         id: 'Rainbow-Modules',
@@ -121,33 +122,37 @@ export const proj = [
         img: './img/P_RM.jpg',
         url:
             'https://rainbow-modules.web.app/?path=/story/introduction-getting-started-overview--page',
+        github: 'https://github.com/nexxtway/rainbow-modules',
     },
     {
         id: 'Calendar-App',
         type: 'practice',
-        tech: 'React, Redux, Node.js, MongoDB, Bootstrap, Heroku',
+        tech: 'React, Redux, Node.js, Express, MongoDB, Bootstrap, Heroku',
         alt: 'Calendar App',
         img:
             'https://res.cloudinary.com/a03m02f92/image/upload/v1613772859/portfolio/P_CalendarApp_cfgqjl.jpg',
         url: 'https://am-mern-calendar.herokuapp.com/',
+        github: 'https://github.com/amontalvof/react-calendar-app',
     },
     {
         id: 'Todo-List',
         type: 'practice',
-        tech: 'Todo List Template, Javascript, Webpack, Github Pages',
+        tech: 'Todo List Template, JavaScript, Webpack, Github Pages',
         alt: 'Todo List App',
         img:
             'https://res.cloudinary.com/a03m02f92/image/upload/v1612070206/portfolio/P_TodoList_cck1qv.jpg',
         url: 'https://amontalvof.github.io/javascript-todo-list/',
+        github: 'https://github.com/amontalvof/javascript-todo-list',
     },
     {
         id: 'BLackjack-Game',
         type: 'practice',
-        tech: 'HTML5, CSS3, Javascript, Bootstrap, Github Pages',
+        tech: 'HTML5, CSS3, JavaScript, Bootstrap, Github Pages',
         alt: 'BLackjack Game',
         img:
             'https://res.cloudinary.com/a03m02f92/image/upload/v1612070175/portfolio/P_BlackJack_zqvbtg.jpg',
         url: 'https://amontalvof.github.io/javascript-blackjack/',
+        github: 'https://github.com/amontalvof/javascript-blackjack',
     },
     {
         id: 'Journal-App',
@@ -157,6 +162,7 @@ export const proj = [
         img:
             'https://res.cloudinary.com/a03m02f92/image/upload/v1612070175/portfolio/P_JournalApp_yozmrq.jpg',
         url: 'https://react-journal-app-b6735.web.app/',
+        github: 'https://github.com/amontalvof/react-journal-app',
     },
     {
         id: 'Airbnb-Clone',
@@ -166,6 +172,7 @@ export const proj = [
         img:
             'https://res.cloudinary.com/a03m02f92/image/upload/v1612070175/portfolio/P_AirBnbClone_uywa6o.jpg',
         url: 'https://react-airbnb-clone-67a8a.web.app/',
+        github: 'https://github.com/amontalvof/react-airbnb-clone',
     },
     {
         id: 'Netflix-Clone',
@@ -175,6 +182,7 @@ export const proj = [
         img:
             'https://res.cloudinary.com/a03m02f92/image/upload/v1612070175/portfolio/P_NetflixClone_jncm99.jpg',
         url: 'https://react-netflix-clone-4b7e3.web.app/',
+        github: 'https://github.com/amontalvof/react-netflix-clone',
     },
     {
         id: 'Antique-Tech-Store',
@@ -184,6 +192,7 @@ export const proj = [
         img:
             'https://res.cloudinary.com/a03m02f92/image/upload/v1612070175/portfolio/P_AntiqueTechStore_tsxhqd.jpg',
         url: 'https://am-react-antique-tech-store.netlify.app',
+        github: 'https://github.com/amontalvof/react-antique-tech-store',
     },
     {
         id: 'Technology-Store',
@@ -193,6 +202,7 @@ export const proj = [
         img:
             'https://res.cloudinary.com/a03m02f92/image/upload/v1612070175/portfolio/P_TechnologyStore_whuh1c.jpg',
         url: 'https://am-react-technology-store.netlify.app',
+        github: 'https://github.com/amontalvof/react-technology-store',
     },
     {
         id: 'Beach-Resort',
@@ -202,6 +212,7 @@ export const proj = [
         img:
             'https://res.cloudinary.com/a03m02f92/image/upload/v1612075973/portfolio/P_BeachResort_rysray.jpg',
         url: 'https://am-react-resort.netlify.app',
+        github: 'https://github.com/amontalvof/react-beach-resort',
     },
     {
         id: 'Phone-Ecommerce',
@@ -211,6 +222,7 @@ export const proj = [
         img:
             'https://res.cloudinary.com/a03m02f92/image/upload/v1612075537/portfolio/P_PhoneEcommerce_syuvrq.jpg',
         url: 'https://am-react-phone-ecommerce.netlify.app',
+        github: 'https://github.com/amontalvof/react-phone-ecommerce',
     },
 ];
 
@@ -280,6 +292,15 @@ export const cloudSkills = [
     },
     //-----------------------------
     {
+        id: 'EXPRESS',
+        technology: 'EXPRESS',
+        fontSize: {
+            web: 40,
+            mobile: 24,
+        },
+        color: '#404D59',
+    },
+    {
         id: 'JEST',
         technology: 'JEST',
         fontSize: {
@@ -315,15 +336,6 @@ export const cloudSkills = [
         },
         color: '#3F2C00',
     },
-    {
-        id: 'FIREBASE',
-        technology: 'FIREBASE',
-        fontSize: {
-            web: 40,
-            mobile: 24,
-        },
-        color: '#FFCB2B',
-    },
     //-----------------------------
     {
         id: 'PYTHON',
@@ -342,6 +354,33 @@ export const cloudSkills = [
             mobile: 20,
         },
         color: '#777CB5',
+    },
+    {
+        id: 'NETLIFY',
+        technology: 'NETLIFY',
+        fontSize: {
+            web: 30,
+            mobile: 20,
+        },
+        color: '#38B3BB',
+    },
+    {
+        id: 'HEROKU',
+        technology: 'HEROKU',
+        fontSize: {
+            web: 30,
+            mobile: 20,
+        },
+        color: '#6762A6',
+    },
+    {
+        id: 'FIREBASE',
+        technology: 'FIREBASE',
+        fontSize: {
+            web: 30,
+            mobile: 20,
+        },
+        color: '#FFCB2B',
     },
     {
         id: 'FIRESTORE',

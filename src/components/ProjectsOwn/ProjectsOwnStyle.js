@@ -28,4 +28,22 @@ export const ProjectsOwnWrapper = styled.div`
         margin: 30px;
         z-index: 2;
     }
+
+    @media (max-width: 1024px) {
+        .flex-container-main {
+            display: none;
+        }
+
+        .flex-container-practice {
+            display: none;
+        }
+
+        
+    }
+
+    @media (min-width: 1025px) {
+        .mobile_carousel{
+            display: none;
+        }
+    }
 `;

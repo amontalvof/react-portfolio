@@ -1,17 +1,22 @@
 import React from 'react';
-import { CardOwnWrapper } from './CardOwnStyle';
+import { CardOwnWrapper, StyledIcon } from './CardOwnStyle';
+import { FaGithub } from 'react-icons/fa';
 
-const CardOwn = ({ tech, alt, img, url }) => {
+const CardOwn = ({ tech, alt, img, url, github }) => {
     return (
-        <a href={url} style={{ textDecoration: 'none' }}>
-            <CardOwnWrapper>
-                <img src={img} alt={alt} className="image" />
-                <div className="middle">
-                    <h1 className="para">{alt}</h1>
-                    <p className="para">{tech}</p>
-                </div>
-            </CardOwnWrapper>
-        </a>
+        <CardOwnWrapper>
+            <img src={img} alt={alt} className="image" />
+            <div className="middle">
+                <h1 className="para">{alt}</h1>
+                <p className="para">{tech}</p>
+                <a href={url} style={{ textDecoration: 'none' }}>
+                    <StyledIcon />
+                </a>
+                <a href={github} style={{ textDecoration: 'none' }}>
+                    <StyledIcon as={FaGithub} />
+                </a>
+            </div>
+        </CardOwnWrapper>
     );
 };
 export default CardOwn;

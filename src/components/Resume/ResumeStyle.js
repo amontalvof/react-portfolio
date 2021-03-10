@@ -1,5 +1,5 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const ResumeWrapper = styled.div`
-  background: var(--lightBlue);
+    background: var(--mainWhite);
 `;
