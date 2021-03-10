@@ -28,6 +28,11 @@ export const CardOwnWrapper = styled.div`
         color: var(--mainWhite);
     }
 
+    .flex-container {
+        display: flex;
+        justify-content: flex-end;
+    }
+
     h1 {
         text-decoration: underline;
         font-weight: 900;
@@ -56,9 +61,9 @@ export const CardOwnWrapper = styled.div`
 `;
 
 export const StyledIcon = styled(FaExternalLinkAlt)`
-    width: 20px;
-    height: 20px;
-    margin-right: 20px;
+    width: 25px;
+    height: 25px;
+    margin-left: 25px;
     color: var(--mainWhite);
     transition: all 0.3s linear;
 

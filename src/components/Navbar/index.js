@@ -43,6 +43,14 @@ export default function Navbar() {
                         Resume
                     </a>
                     <a
+                        href="#skills"
+                        onClick={() => {
+                            onClickToElement('skills');
+                        }}
+                    >
+                        Skills
+                    </a>
+                    <a
                         href="#projects"
                         onClick={() => {
                             onClickToElement('projects');
@@ -93,6 +101,21 @@ export default function Navbar() {
                             }}
                         >
                             Resume
+                        </a>
+                    </div>
+                    <div style={{ padding: ' 10px' }}>
+                        <a
+                            href="#skills"
+                            style={{
+                                fontSize: '20px',
+                                color: '#f6fcfc',
+                                textDecoration: 'none',
+                            }}
+                            onClick={() => {
+                                onClickToElement('skills');
+                            }}
+                        >
+                            Skills
                         </a>
                     </div>
                     <div style={{ padding: ' 10px' }}>

@@ -9,12 +9,14 @@ const CardOwn = ({ tech, alt, img, url, github }) => {
             <div className="middle">
                 <h1 className="para">{alt}</h1>
                 <p className="para">{tech}</p>
-                <a href={url} style={{ textDecoration: 'none' }}>
-                    <StyledIcon />
-                </a>
-                <a href={github} style={{ textDecoration: 'none' }}>
-                    <StyledIcon as={FaGithub} />
-                </a>
+                <div className="flex-container">
+                    <a href={url} style={{ textDecoration: 'none' }}>
+                        <StyledIcon />
+                    </a>
+                    <a href={github} style={{ textDecoration: 'none' }}>
+                        <StyledIcon as={FaGithub} />
+                    </a>
+                </div>
             </div>
         </CardOwnWrapper>
     );

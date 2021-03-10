@@ -19,7 +19,9 @@ export default function Resume() {
                 <br />
                 <Timeline title={'education'} />
                 <br />
-                <Title title={'General Skills'} />
+                <Element name="skills">
+                    <Title title={'General Skills'} />
+                </Element>
                 <br />
                 <SkillsCloud />
                 <br />
