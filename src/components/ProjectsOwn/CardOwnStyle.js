@@ -6,6 +6,7 @@ export const CardOwnWrapper = styled.div`
     background-color: var(--darkGrey);
     transition: all 0.4s ease-out;
     box-shadow: 0 35px 77px -17px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
 
     .image {
         opacity: 1;
@@ -14,6 +15,7 @@ export const CardOwnWrapper = styled.div`
         height: auto;
         transition: 0.5s ease;
         backface-visibility: hidden;
+        border-radius: 10px;
     }
 
     .middle {

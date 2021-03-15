@@ -29,8 +29,8 @@ function App() {
                 <Application theme={theme}>
                     <Navbar />
                     <Hello />
-                    <Resume />
                     <ProjectsOwn />
+                    <Resume />
                     <Contact />
                     <ScrollButton />
                 </Application>

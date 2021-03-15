@@ -35,12 +35,12 @@ export default function Navbar() {
                         Hello
                     </a>
                     <a
-                        href="#resume"
+                        href="#projects"
                         onClick={() => {
-                            onClickToElement('resume');
+                            onClickToElement('projects');
                         }}
                     >
-                        Resume
+                        Projects
                     </a>
                     <a
                         href="#skills"
@@ -51,12 +51,12 @@ export default function Navbar() {
                         Skills
                     </a>
                     <a
-                        href="#projects"
+                        href="#resume"
                         onClick={() => {
-                            onClickToElement('projects');
+                            onClickToElement('resume');
                         }}
                     >
-                        Projects
+                        Resume
                     </a>
                     <a
                         href="#contact"
@@ -90,17 +90,17 @@ export default function Navbar() {
                     </div>
                     <div style={{ padding: ' 10px' }}>
                         <a
-                            href="#resume"
+                            href="#projects"
                             style={{
                                 fontSize: '20px',
                                 color: '#f6fcfc',
                                 textDecoration: 'none',
                             }}
                             onClick={() => {
-                                onClickToElement('resume');
+                                onClickToElement('projects');
                             }}
                         >
-                            Resume
+                            Projects
                         </a>
                     </div>
                     <div style={{ padding: ' 10px' }}>
@@ -120,17 +120,17 @@ export default function Navbar() {
                     </div>
                     <div style={{ padding: ' 10px' }}>
                         <a
-                            href="#projects"
+                            href="#resume"
                             style={{
                                 fontSize: '20px',
                                 color: '#f6fcfc',
                                 textDecoration: 'none',
                             }}
                             onClick={() => {
-                                onClickToElement('projects');
+                                onClickToElement('resume');
                             }}
                         >
-                            Projects
+                            Resume
                         </a>
                     </div>
                     <div style={{ padding: ' 10px' }}>

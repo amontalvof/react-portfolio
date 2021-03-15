@@ -11,6 +11,12 @@ export default function Resume() {
     return (
         <ResumeWrapper>
             <React.Fragment>
+                <Element name="skills">
+                    <Title title={'Skills'} />
+                </Element>
+                <br />
+                <SkillsCloud />
+                <br />
                 <Element name="resume">
                     <Title title={'Resume'} />
                 </Element>
@@ -18,12 +24,6 @@ export default function Resume() {
                 <Timeline title={'work experience'} />
                 <br />
                 <Timeline title={'education'} />
-                <br />
-                <Element name="skills">
-                    <Title title={'General Skills'} />
-                </Element>
-                <br />
-                <SkillsCloud />
                 <br />
             </React.Fragment>
         </ResumeWrapper>

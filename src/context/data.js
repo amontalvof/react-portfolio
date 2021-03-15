@@ -109,7 +109,8 @@ export const proj = [
         tech:
             'React-Rainbow-Components is an open-source project, with a collection of components that will help you build your application in a faster way. I am one of the collaborators.',
         alt: 'React-Rainbow-Components',
-        img: './img/P_RRC.jpg',
+        img:
+            'https://res.cloudinary.com/a03m02f92/image/upload/v1615837254/portfolio/P_ReactRainbow_ka03y9.jpg',
         url: 'https://react-rainbow.io/#/GettingStarted',
         github: 'https://github.com/nexxtway/react-rainbow',
     },
@@ -119,7 +120,8 @@ export const proj = [
         tech:
             'Rainbow-Modules includes a collection of components, fully integrated with Firebase, that will help you to build apps. I am one of the collaborators.',
         alt: 'Rainbow-Modules',
-        img: './img/P_RM.jpg',
+        img:
+            'https://res.cloudinary.com/a03m02f92/image/upload/v1615837557/portfolio/P_RainbowModules_vyl7dv.jpg',
         url:
             'https://rainbow-modules.web.app/?path=/story/introduction-getting-started-overview--page',
         github: 'https://github.com/nexxtway/rainbow-modules',
@@ -445,6 +447,15 @@ export const cloudSkills = [
             mobile: 16,
         },
         color: '#c86495',
+    },
+    {
+        id: 'JQUERY',
+        technology: 'JQUERY',
+        fontSize: {
+            web: 20,
+            mobile: 16,
+        },
+        color: '#0769ad',
     },
     {
         id: 'BOOTSTRAP',

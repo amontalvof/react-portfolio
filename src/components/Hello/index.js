@@ -30,10 +30,9 @@ export default function index() {
                         <p>
                             I am a Front-end Developer skilled at writing
                             well-designed, and efficient code using current best
-                            practices. Fast learner, hard
-                            worker and team player who is proficient in an array
-                            of scripting languages such as JavaScript, TypeScript, PHP and
-                            Python.
+                            practices. Fast learner, hard worker and team player
+                            who is proficient in an array of scripting languages
+                            such as JavaScript, TypeScript, PHP and Python.
                         </p>
                         <br />
                         <Link

@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 
 export const ProjectsOwnWrapper = styled.div`
+    position: relative;
+    border-bottom-left-radius: 20% 5%;
+    border-bottom-right-radius: 20% 5%;
+
     background: linear-gradient(
         to top right,
         rgba(0, 183, 212) 20%,
@@ -37,12 +41,10 @@ export const ProjectsOwnWrapper = styled.div`
         .flex-container-practice {
             display: none;
         }
-
-        
     }
 
     @media (min-width: 1025px) {
-        .mobile_carousel{
+        .mobile_carousel {
             display: none;
         }
     }
