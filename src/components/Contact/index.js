@@ -29,9 +29,6 @@ export default function index() {
                 </a>
             </div>
             <div>
-                <h3>Phone: +52 461 253 4450</h3>
-            </div>
-            <div>
                 <h3>Email: andy.montalvowd@gmail.com</h3>
             </div>
             <div>
