@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Application } from 'react-rainbow-components';
 import './App.css';
-import './izmir.min.css';
+// import './izmir.min.css';
 import Navbar from './components/Navbar';
 import Resume from './components/Resume';
 import Hello from './components/Hello';
