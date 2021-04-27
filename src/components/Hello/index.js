@@ -28,7 +28,7 @@ export default function index() {
                         </div>
                         <br />
                         <p>
-                            I am a Front-end Developer skilled at writing
+                            I am a Full-Stack Developer skilled at writing
                             well-designed, and efficient code using current best
                             practices. Fast learner, hard worker and team player
                             who is proficient in an array of scripting languages
