@@ -10,8 +10,7 @@ export const employment = [
     {
         id: 'ETECSA',
         title: 'Full-Stack Developer',
-        place:
-            'ETECSA- Empresa de Telecomunicaciones de Cuba S.A. Havana, Cuba',
+        place: 'ETECSA- Empresa de Telecomunicaciones de Cuba S.A. Havana, Cuba',
         date: '06/2017 - 12/2018',
         description:
             'Specialized in web development and database administration. Developed a web application that helped to increase company efficiency and productivity by 80%. Worked on backend development tasks such as coding, ensuring the work was done with precision.',
@@ -38,8 +37,7 @@ export const education = [
     {
         id: 'Engineer',
         title: 'Telecommunication and Electronics Engineer',
-        place:
-            'José Antonio Echeverría Technological University of Havana-Cujae. Havana, Cuba',
+        place: 'José Antonio Echeverría Technological University of Havana-Cujae. Havana, Cuba',
         date: '09/2011 - 06/2016',
         description:
             'Thesis: “Vibration measurement for leak detection in water distribution networksˮ. Focus on digital signal processing using Python in a Raspberry Pi.',
@@ -106,33 +104,36 @@ export const proj = [
     {
         id: 'React-Rainbow-Components',
         type: 'main',
-        tech:
-            'React-Rainbow-Components is an open-source project, with a collection of components that will help you build your application in a faster way. I am one of the collaborators.',
+        tech: 'React-Rainbow-Components is an open-source project, with a collection of components that will help you build your application in a faster way. I am one of the collaborators.',
         alt: 'React-Rainbow-Components',
-        img:
-            'https://res.cloudinary.com/a03m02f92/image/upload/v1615837254/portfolio/P_ReactRainbow_ka03y9.jpg',
+        img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1615837254/portfolio/P_ReactRainbow_ka03y9.jpg',
         url: 'https://react-rainbow.io/#/GettingStarted',
         github: 'https://github.com/nexxtway/react-rainbow',
     },
     {
         id: 'Rainbow-Modules',
         type: 'main',
-        tech:
-            'Rainbow-Modules includes a collection of components, fully integrated with Firebase, that will help you to build apps. I am one of the collaborators.',
+        tech: 'Rainbow-Modules includes a collection of components, fully integrated with Firebase, that will help you to build apps. I am one of the collaborators.',
         alt: 'Rainbow-Modules',
-        img:
-            'https://res.cloudinary.com/a03m02f92/image/upload/v1615837557/portfolio/P_RainbowModules_vyl7dv.jpg',
-        url:
-            'https://rainbow-modules.web.app/?path=/story/introduction-getting-started-overview--page',
+        img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1615837557/portfolio/P_RainbowModules_vyl7dv.jpg',
+        url: 'https://rainbow-modules.web.app/?path=/story/introduction-getting-started-overview--page',
         github: 'https://github.com/nexxtway/rainbow-modules',
+    },
+    {
+        id: 'Inline-App',
+        type: 'practice',
+        tech: 'HTML5, CSS3, JavaScript, Node.js, Express.js, Socket.io, Bootstrap, Heroku',
+        alt: 'Inline App',
+        img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1620769605/portfolio/P_InlineApp_ekm6sk.jpg',
+        url: 'https://am-socket-inline-app.herokuapp.com/',
+        github: 'https://github.com/amontalvof/node-websocket-inline-app',
     },
     {
         id: 'Calendar-App',
         type: 'practice',
-        tech: 'React, Redux, Node.js, Express, MongoDB, Bootstrap, Heroku',
+        tech: 'React, Redux, Node.js, Express.js, MongoDB, Bootstrap, Heroku',
         alt: 'Calendar App',
-        img:
-            'https://res.cloudinary.com/a03m02f92/image/upload/v1613772859/portfolio/P_CalendarApp_cfgqjl.jpg',
+        img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1613772859/portfolio/P_CalendarApp_cfgqjl.jpg',
         url: 'https://am-mern-calendar.herokuapp.com/',
         github: 'https://github.com/amontalvof/react-calendar-app',
     },
@@ -141,8 +142,7 @@ export const proj = [
         type: 'practice',
         tech: 'Todo List Template, JavaScript, Webpack, Github Pages',
         alt: 'Todo List App',
-        img:
-            'https://res.cloudinary.com/a03m02f92/image/upload/v1612070206/portfolio/P_TodoList_cck1qv.jpg',
+        img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1612070206/portfolio/P_TodoList_cck1qv.jpg',
         url: 'https://amontalvof.github.io/javascript-todo-list/',
         github: 'https://github.com/amontalvof/javascript-todo-list',
     },
@@ -151,8 +151,7 @@ export const proj = [
         type: 'practice',
         tech: 'HTML5, CSS3, JavaScript, Bootstrap, Github Pages',
         alt: 'BLackjack Game',
-        img:
-            'https://res.cloudinary.com/a03m02f92/image/upload/v1612070175/portfolio/P_BlackJack_zqvbtg.jpg',
+        img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1612070175/portfolio/P_BlackJack_zqvbtg.jpg',
         url: 'https://amontalvof.github.io/javascript-blackjack/',
         github: 'https://github.com/amontalvof/javascript-blackjack',
     },
@@ -161,8 +160,7 @@ export const proj = [
         type: 'practice',
         tech: 'React, Redux, Sass, Firebase, Firestore',
         alt: 'Journal App',
-        img:
-            'https://res.cloudinary.com/a03m02f92/image/upload/v1612070175/portfolio/P_JournalApp_yozmrq.jpg',
+        img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1612070175/portfolio/P_JournalApp_yozmrq.jpg',
         url: 'https://react-journal-app-b6735.web.app/',
         github: 'https://github.com/amontalvof/react-journal-app',
     },
@@ -171,8 +169,7 @@ export const proj = [
         type: 'practice',
         tech: 'React, CSS3, Material UI, Firebase',
         alt: 'Airbnb Clone',
-        img:
-            'https://res.cloudinary.com/a03m02f92/image/upload/v1612070175/portfolio/P_AirBnbClone_uywa6o.jpg',
+        img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1612070175/portfolio/P_AirBnbClone_uywa6o.jpg',
         url: 'https://react-airbnb-clone-67a8a.web.app/',
         github: 'https://github.com/amontalvof/react-airbnb-clone',
     },
@@ -181,8 +178,7 @@ export const proj = [
         type: 'practice',
         tech: 'React, CSS3, Firebase',
         alt: 'Netflix Clone',
-        img:
-            'https://res.cloudinary.com/a03m02f92/image/upload/v1612070175/portfolio/P_NetflixClone_jncm99.jpg',
+        img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1612070175/portfolio/P_NetflixClone_jncm99.jpg',
         url: 'https://react-netflix-clone-4b7e3.web.app/',
         github: 'https://github.com/amontalvof/react-netflix-clone',
     },
@@ -191,8 +187,7 @@ export const proj = [
         type: 'practice',
         tech: 'React, Styled Components, Netlify, React Rainbow Components',
         alt: 'Antique Tech Store',
-        img:
-            'https://res.cloudinary.com/a03m02f92/image/upload/v1612070175/portfolio/P_AntiqueTechStore_tsxhqd.jpg',
+        img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1612070175/portfolio/P_AntiqueTechStore_tsxhqd.jpg',
         url: 'https://am-react-antique-tech-store.netlify.app',
         github: 'https://github.com/amontalvof/react-antique-tech-store',
     },
@@ -201,8 +196,7 @@ export const proj = [
         type: 'practice',
         tech: 'React, Styled Components, Netlify, React Rainbow Components',
         alt: 'Technology Store',
-        img:
-            'https://res.cloudinary.com/a03m02f92/image/upload/v1612070175/portfolio/P_TechnologyStore_whuh1c.jpg',
+        img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1612070175/portfolio/P_TechnologyStore_whuh1c.jpg',
         url: 'https://am-react-technology-store.netlify.app',
         github: 'https://github.com/amontalvof/react-technology-store',
     },
@@ -211,8 +205,7 @@ export const proj = [
         type: 'practice',
         tech: 'React, CSS3, Netlify',
         alt: 'Beach Resort',
-        img:
-            'https://res.cloudinary.com/a03m02f92/image/upload/v1612075973/portfolio/P_BeachResort_rysray.jpg',
+        img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1612075973/portfolio/P_BeachResort_rysray.jpg',
         url: 'https://am-react-resort.netlify.app',
         github: 'https://github.com/amontalvof/react-beach-resort',
     },
@@ -221,8 +214,7 @@ export const proj = [
         type: 'practice',
         tech: 'React, Bootstrap, Netlify',
         alt: 'Phone Ecommerce Store',
-        img:
-            'https://res.cloudinary.com/a03m02f92/image/upload/v1612075537/portfolio/P_PhoneEcommerce_syuvrq.jpg',
+        img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1612075537/portfolio/P_PhoneEcommerce_syuvrq.jpg',
         url: 'https://am-react-phone-ecommerce.netlify.app',
         github: 'https://github.com/amontalvof/react-phone-ecommerce',
     },
