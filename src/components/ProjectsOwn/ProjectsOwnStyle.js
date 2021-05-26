@@ -16,7 +16,7 @@ export const ProjectsOwnWrapper = styled.div`
         justify-content: center;
     }
     .flex-container-main > div {
-        width: 600px;
+        width: 550px;
         margin: 30px;
         z-index: 2;
     }

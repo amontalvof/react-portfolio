@@ -1,4 +1,5 @@
 import React from 'react';
+import {RenderIf} from 'react-rainbow-components'
 import { CardOwnWrapper, StyledIcon } from './CardOwnStyle';
 import { FaGithub } from 'react-icons/fa';
 
@@ -13,9 +14,11 @@ const CardOwn = ({ tech, alt, img, url, github }) => {
                     <a href={url} style={{ textDecoration: 'none' }}>
                         <StyledIcon />
                     </a>
-                    <a href={github} style={{ textDecoration: 'none' }}>
-                        <StyledIcon as={FaGithub} />
-                    </a>
+                    <RenderIf isTrue={github}>
+                        <a href={github} style={{ textDecoration: 'none' }}>
+                            <StyledIcon as={FaGithub} />
+                        </a>
+                    </RenderIf>
                 </div>
             </div>
         </CardOwnWrapper>
