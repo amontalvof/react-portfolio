@@ -104,9 +104,9 @@ export const proj = [
     {
         id: 'Functions-Store',
         type: 'main',
-        tech: 'Function-Store is a marketplace of Google Cloud Functions. Developers can install and configure Cloud Functions with a click of a button. I am one of the developers.',
+        tech: 'Functions-Store is a marketplace of Google Cloud Functions. Developers can install and configure Cloud Functions with a click of a button. I am one of the developers.',
         alt: 'Functions-Store',
-        img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1622066823/portfolio/P_FunctionsStore_ruce6d.jpg',
+        img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1622564268/portfolio/P_FunctionsStore_g6xjwc.jpg',
         url: 'https://app.functions.store',
     },
     {
