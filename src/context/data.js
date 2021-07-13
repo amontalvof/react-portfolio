@@ -2,7 +2,7 @@ export const employment = [
     {
         id: 'FRELANCE',
         title: 'Front-End Developer (Freelance)',
-        place: 'Nexxtway. Guadalajara, Mexico',
+        place: 'Guadalajara, Mexico',
         date: '04/2020 – present',
         description:
             'Specialized in front-end development and conducted quality assurance tests to look for errors, developing and implementing effective solutions to the issues. Implemented and maintained components in the react-rainbow-components and rainbow-modules libraries. Completed front-end development tasks and maintain high productivity and efficiency using an agile methodology.',
@@ -128,6 +128,15 @@ export const proj = [
         github: 'https://github.com/nexxtway/react-rainbow',
     },
     {
+        id: 'Map-App',
+        type: 'practice',
+        tech: 'React, RxJS, Node.js, Express.js, Socket.io, Heroku, Netlify',
+        alt: 'Map App',
+        img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1626153626/portfolio/P_MapApp_kp8qt0.jpg',
+        url: 'https://am-socket-map-app.netlify.app/',
+        github: 'https://github.com/amontalvof/socket-map-app-frontend',
+    },
+    {
         id: 'Inline-App',
         type: 'practice',
         tech: 'HTML5, CSS3, JavaScript, Node.js, Express.js, Socket.io, Bootstrap, Heroku',
@@ -215,6 +224,15 @@ export const proj = [
         alt: 'Beach Resort',
         img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1612075973/portfolio/P_BeachResort_rysray.jpg',
         url: 'https://am-react-resort.netlify.app',
+        github: 'https://github.com/amontalvof/react-beach-resort',
+    },
+    {
+        id: 'Score-Board',
+        type: 'practice',
+        tech: 'React, Styled Components, Jest, Netlify, React Rainbow Components',
+        alt: 'Score Board',
+        img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1626154339/portfolio/P_ScoreBoard_k4epsh.jpg',
+        url: 'https://am-react-scoreboard.netlify.app/',
         github: 'https://github.com/amontalvof/react-beach-resort',
     },
     {
