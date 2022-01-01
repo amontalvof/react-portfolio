@@ -15,12 +15,16 @@ export default function index() {
                 <a
                     className="iconosSociales"
                     href="https://www.linkedin.com/in/andy-montalvo-6a9a37148/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                 >
                     <FaLinkedin />
                 </a>
                 <a
                     className="iconosSociales"
                     href="https://github.com/amontalvof"
+                    target="_blank"
+                    rel="noopener noreferrer"
                 >
                     <FaGithub />
                 </a>

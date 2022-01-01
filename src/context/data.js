@@ -30,7 +30,7 @@ export const education = [
         id: 'Master',
         title: 'Master of Science in Electronics Engineering',
         place: 'Technological Institute of Celaya. Celaya, Mexico',
-        date: '01/2019 - 01/2021',
+        date: '01/2019 - 05/2021',
         description:
             'Thesis: “Electronic System for Detecting Potholes and Speed Bumps for Cars”. Focus on Electronics, Deep Learning and Computer Vision using Python in an NVIDIA Jetson Nano.',
     },
@@ -126,6 +126,15 @@ export const proj = [
         img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1615837254/portfolio/P_ReactRainbow_ka03y9.jpg',
         url: 'https://react-rainbow.io/#/GettingStarted',
         github: 'https://github.com/nexxtway/react-rainbow',
+    },
+    {
+        id: 'MinesWeeper-Game',
+        type: 'practice',
+        tech: 'HTML5, CSS3, TypeScript, Webpack, Github Pages',
+        alt: 'MinesWeeper Game',
+        img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1641064940/portfolio/P_MinesWeeper_lqp5qt.jpg',
+        url: 'https://amontalvof.github.io/typescript-minesweeper/',
+        github: 'https://github.com/amontalvof/typescript-minesweeper',
     },
     {
         id: 'Map-App',
