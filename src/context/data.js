@@ -128,6 +128,15 @@ export const proj = [
         github: 'https://github.com/nexxtway/react-rainbow',
     },
     {
+        id: 'Calculator-App',
+        type: 'practice',
+        tech: 'HTML5, CSS3, TypeScript, Webpack, Github Pages',
+        alt: 'Calculator App',
+        img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1641155119/portfolio/P_Calculator_hkor8m.jpg',
+        url: 'https://amontalvof.github.io/typescript-calculator/',
+        github: 'https://github.com/amontalvof/typescript-calculator',
+    },
+    {
         id: 'MinesWeeper-Game',
         type: 'practice',
         tech: 'HTML5, CSS3, TypeScript, Webpack, Github Pages',
