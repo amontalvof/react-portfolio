@@ -128,6 +128,15 @@ export const proj = [
         github: 'https://github.com/nexxtway/react-rainbow',
     },
     {
+        id: 'Effortless-React',
+        type: 'practice',
+        tech: 'TypeScript, React, Storybook, Styled Components, Github Pages',
+        alt: 'Effortless React',
+        img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1654528817/portfolio/P_EffortlessReact_vcajgb.jpg',
+        url: 'https://amontalvof.github.io/effortless-react/',
+        github: 'https://github.com/amontalvof/effortless-react',
+    },
+    {
         id: 'Calculator-App',
         type: 'practice',
         tech: 'HTML5, CSS3, TypeScript, Webpack, Github Pages',
