@@ -3,13 +3,15 @@ import { RenderIf } from 'react-rainbow-components';
 import { CardOwnWrapper, StyledIcon } from './CardOwnStyle';
 import { FaGithub } from 'react-icons/fa';
 
-const CardOwn = ({ tech, alt, img, url, github }) => {
+const CardOwn = ({ tech, alt, img, url, github, fontSize }) => {
     return (
         <CardOwnWrapper>
             <img src={img} alt={alt} className="image" />
             <div className="middle">
                 <h1 className="para">{alt}</h1>
-                <p className="para">{tech}</p>
+                <p className="para" style={{ fontSize }}>
+                    {tech}
+                </p>
                 <div className="flex-container">
                     <a
                         href={url}

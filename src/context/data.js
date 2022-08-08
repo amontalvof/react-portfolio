@@ -102,12 +102,28 @@ export const fram = [
 
 export const proj = [
     {
+        id: 'Ever-Transit',
+        type: 'main',
+        tech: "EverTransit is a leading-edge fleet management tool. It helps you manage your fleet cheaper, faster, and easier with the industry's most advanced technology.",
+        alt: 'EverTransit',
+        img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1659927415/portfolio/P_EverTransit_cv7v8v.jpg',
+        url: 'https://www.evertransit.com',
+    },
+    {
         id: 'Functions-Store',
         type: 'main',
         tech: 'Functions-Store is a marketplace of Google Cloud Functions. Developers can install and configure Cloud Functions with a click of a button. I am one of the developers.',
         alt: 'Functions-Store',
         img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1622564268/portfolio/P_FunctionsStore_g6xjwc.jpg',
         url: 'https://app.functions.store',
+    },
+    {
+        id: 'Paquete-IO',
+        type: 'main',
+        tech: 'paquete.io is a solution that helps simplify the package management process in buildings.',
+        alt: 'paquete.io',
+        img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1659927415/portfolio/P_PaqueteIO_hthwsv.jpg',
+        url: 'https://paquete.io',
     },
     {
         id: 'Rainbow-Modules',
@@ -126,6 +142,16 @@ export const proj = [
         img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1615837254/portfolio/P_ReactRainbow_ka03y9.jpg',
         url: 'https://react-rainbow.io/#/GettingStarted',
         github: 'https://github.com/nexxtway/react-rainbow',
+    },
+    {
+        id: 'TULOGO-E-commerce',
+        type: 'practice',
+        tech: 'TypeScript, React, Redux, React Query, JWT, Formik, React Query, Styled Components, Bootstrap, Node, Express, MySQL, Heroku, Netlify',
+        alt: 'TULOGO E-commerce',
+        img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1659925838/portfolio/P_TULOGO_sonn0d.jpg',
+        url: 'https://tulogo-ecommerce.netlify.app/',
+        github: 'https://github.com/amontalvof/ts-frontend-ecommerce',
+        fontSize: '14px',
     },
     {
         id: 'Effortless-React',
@@ -217,15 +243,15 @@ export const proj = [
         url: 'https://react-airbnb-clone-67a8a.web.app/',
         github: 'https://github.com/amontalvof/react-airbnb-clone',
     },
-    {
-        id: 'Netflix-Clone',
-        type: 'practice',
-        tech: 'React, CSS3, Firebase',
-        alt: 'Netflix Clone',
-        img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1612070175/portfolio/P_NetflixClone_jncm99.jpg',
-        url: 'https://react-netflix-clone-4b7e3.web.app/',
-        github: 'https://github.com/amontalvof/react-netflix-clone',
-    },
+    // {
+    //     id: 'Netflix-Clone',
+    //     type: 'practice',
+    //     tech: 'React, CSS3, Firebase',
+    //     alt: 'Netflix Clone',
+    //     img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1612070175/portfolio/P_NetflixClone_jncm99.jpg',
+    //     url: 'https://react-netflix-clone-4b7e3.web.app/',
+    //     github: 'https://github.com/amontalvof/react-netflix-clone',
+    // },
     {
         id: 'Antique-Tech-Store',
         type: 'practice',
@@ -253,15 +279,15 @@ export const proj = [
         url: 'https://am-react-resort.netlify.app',
         github: 'https://github.com/amontalvof/react-beach-resort',
     },
-    {
-        id: 'Score-Board',
-        type: 'practice',
-        tech: 'React, Styled Components, Jest, Netlify, React Rainbow Components',
-        alt: 'Score Board',
-        img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1626154339/portfolio/P_ScoreBoard_k4epsh.jpg',
-        url: 'https://am-react-scoreboard.netlify.app/',
-        github: 'https://github.com/amontalvof/react-beach-resort',
-    },
+    // {
+    //     id: 'Score-Board',
+    //     type: 'practice',
+    //     tech: 'React, Styled Components, Jest, Netlify, React Rainbow Components',
+    //     alt: 'Score Board',
+    //     img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1626154339/portfolio/P_ScoreBoard_k4epsh.jpg',
+    //     url: 'https://am-react-scoreboard.netlify.app/',
+    //     github: 'https://github.com/amontalvof/react-beach-resort',
+    // },
     {
         id: 'Phone-Ecommerce',
         type: 'practice',
@@ -337,6 +363,15 @@ export const cloudSkills = [
         },
         color: '#43853D',
     },
+    {
+        id: 'JWT',
+        technology: 'JWT',
+        fontSize: {
+            web: 50,
+            mobile: 28,
+        },
+        color: '#333333',
+    },
     //-----------------------------
     {
         id: 'EXPRESS',
@@ -355,6 +390,24 @@ export const cloudSkills = [
             mobile: 24,
         },
         color: '#944058',
+    },
+    {
+        id: 'REACT-QUERY',
+        technology: 'REACT QUERY',
+        fontSize: {
+            web: 40,
+            mobile: 24,
+        },
+        color: '#ef4544',
+    },
+    {
+        id: 'FORMIK',
+        technology: 'FORMIK',
+        fontSize: {
+            web: 40,
+            mobile: 24,
+        },
+        color: '#3B82F6',
     },
     // {
     //     id: 'ENZYME',
@@ -393,15 +446,15 @@ export const cloudSkills = [
         },
         color: '#4584b6',
     },
-    {
-        id: 'PHP',
-        technology: 'PHP',
-        fontSize: {
-            web: 30,
-            mobile: 20,
-        },
-        color: '#777CB5',
-    },
+    // {
+    //     id: 'PHP',
+    //     technology: 'PHP',
+    //     fontSize: {
+    //         web: 30,
+    //         mobile: 20,
+    //     },
+    //     color: '#777CB5',
+    // },
     {
         id: 'NETLIFY',
         technology: 'NETLIFY',
