@@ -36,14 +36,27 @@ export const ParalaxWrapper = styled.div`
         margin: 30px;
     }
 
-    img {
-        position: 'absolute';
-        max-width: 60%;
-        height: auto;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        box-shadow: -20px -20px var(--lightBlue);
+    .about_me {
+        aspect-ratio: 1.35/1;
+        border-radius: 2rem;
+        background: linear-gradient(
+            45deg,
+            transparent,
+            var(--lightBlue),
+            transparent
+        );
+        display: grid;
+        place-items: center;
+    }
+    .about_me-image {
+        border-radius: 2rem;
+        overflow: hidden;
+        transform: rotate(10deg);
+        transition: var(--mainTransition);
+    }
+
+    .about_me-image:hover {
+        transform: rotate(0);
     }
 
     p {

@@ -161,6 +161,7 @@ export const proj = [
         img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1654528817/portfolio/P_EffortlessReact_vcajgb.jpg',
         url: 'https://amontalvof.github.io/effortless-react/',
         github: 'https://github.com/amontalvof/effortless-react',
+        fontSize: '16px',
     },
     {
         id: 'Calculator-App',
@@ -170,6 +171,7 @@ export const proj = [
         img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1641155119/portfolio/P_Calculator_hkor8m.jpg',
         url: 'https://amontalvof.github.io/typescript-calculator/',
         github: 'https://github.com/amontalvof/typescript-calculator',
+        fontSize: '16px',
     },
     {
         id: 'MinesWeeper-Game',
@@ -179,33 +181,17 @@ export const proj = [
         img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1641064940/portfolio/P_MinesWeeper_lqp5qt.jpg',
         url: 'https://amontalvof.github.io/typescript-minesweeper/',
         github: 'https://github.com/amontalvof/typescript-minesweeper',
-    },
-    {
-        id: 'Map-App',
-        type: 'practice',
-        tech: 'React, RxJS, Node.js, Express.js, Socket.io, Heroku, Netlify',
-        alt: 'Map App',
-        img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1626153626/portfolio/P_MapApp_kp8qt0.jpg',
-        url: 'https://am-socket-map-app.netlify.app/',
-        github: 'https://github.com/amontalvof/socket-map-app-frontend',
-    },
-    {
-        id: 'Inline-App',
-        type: 'practice',
-        tech: 'HTML5, CSS3, JavaScript, Node.js, Express.js, Socket.io, Bootstrap, Heroku',
-        alt: 'Inline App',
-        img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1620769605/portfolio/P_InlineApp_ekm6sk.jpg',
-        url: 'https://am-socket-inline-app.herokuapp.com/',
-        github: 'https://github.com/amontalvof/node-websocket-inline-app',
+        fontSize: '16px',
     },
     {
         id: 'Calendar-App',
         type: 'practice',
-        tech: 'React, Redux, Node.js, Express.js, MongoDB, Bootstrap, Heroku',
+        tech: 'React, Redux, Node.js, Express.js, MongoDB, Bootstrap, Railway',
         alt: 'Calendar App',
         img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1613772859/portfolio/P_CalendarApp_cfgqjl.jpg',
-        url: 'https://am-mern-calendar.herokuapp.com/',
+        url: 'https://drab-pear-basket-clam-cuff.cyclic.app/',
         github: 'https://github.com/amontalvof/react-calendar-app',
+        fontSize: '16px',
     },
     {
         id: 'Todo-List',
@@ -215,6 +201,7 @@ export const proj = [
         img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1612070206/portfolio/P_TodoList_cck1qv.jpg',
         url: 'https://amontalvof.github.io/javascript-todo-list/',
         github: 'https://github.com/amontalvof/javascript-todo-list',
+        fontSize: '16px',
     },
     {
         id: 'BLackjack-Game',
@@ -224,6 +211,7 @@ export const proj = [
         img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1612070175/portfolio/P_BlackJack_zqvbtg.jpg',
         url: 'https://amontalvof.github.io/javascript-blackjack/',
         github: 'https://github.com/amontalvof/javascript-blackjack',
+        fontSize: '16px',
     },
     {
         id: 'Journal-App',
@@ -233,6 +221,7 @@ export const proj = [
         img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1612070175/portfolio/P_JournalApp_yozmrq.jpg',
         url: 'https://react-journal-app-b6735.web.app/',
         github: 'https://github.com/amontalvof/react-journal-app',
+        fontSize: '16px',
     },
     {
         id: 'Airbnb-Clone',
@@ -242,6 +231,7 @@ export const proj = [
         img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1612070175/portfolio/P_AirBnbClone_uywa6o.jpg',
         url: 'https://react-airbnb-clone-67a8a.web.app/',
         github: 'https://github.com/amontalvof/react-airbnb-clone',
+        fontSize: '16px',
     },
     // {
     //     id: 'Netflix-Clone',
@@ -260,6 +250,7 @@ export const proj = [
         img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1612070175/portfolio/P_AntiqueTechStore_tsxhqd.jpg',
         url: 'https://am-react-antique-tech-store.netlify.app',
         github: 'https://github.com/amontalvof/react-antique-tech-store',
+        fontSize: '16px',
     },
     {
         id: 'Technology-Store',
@@ -269,6 +260,7 @@ export const proj = [
         img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1612070175/portfolio/P_TechnologyStore_whuh1c.jpg',
         url: 'https://am-react-technology-store.netlify.app',
         github: 'https://github.com/amontalvof/react-technology-store',
+        fontSize: '16px',
     },
     {
         id: 'Beach-Resort',
@@ -278,16 +270,8 @@ export const proj = [
         img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1612075973/portfolio/P_BeachResort_rysray.jpg',
         url: 'https://am-react-resort.netlify.app',
         github: 'https://github.com/amontalvof/react-beach-resort',
+        fontSize: '16px',
     },
-    // {
-    //     id: 'Score-Board',
-    //     type: 'practice',
-    //     tech: 'React, Styled Components, Jest, Netlify, React Rainbow Components',
-    //     alt: 'Score Board',
-    //     img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1626154339/portfolio/P_ScoreBoard_k4epsh.jpg',
-    //     url: 'https://am-react-scoreboard.netlify.app/',
-    //     github: 'https://github.com/amontalvof/react-beach-resort',
-    // },
     {
         id: 'Phone-Ecommerce',
         type: 'practice',
@@ -296,6 +280,7 @@ export const proj = [
         img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1612075537/portfolio/P_PhoneEcommerce_syuvrq.jpg',
         url: 'https://am-react-phone-ecommerce.netlify.app',
         github: 'https://github.com/amontalvof/react-phone-ecommerce',
+        fontSize: '16px',
     },
 ];
 
@@ -337,6 +322,15 @@ export const cloudSkills = [
         color: '#3178c6',
     },
     {
+        id: 'JAVA',
+        technology: 'JAVA',
+        fontSize: {
+            web: 50,
+            mobile: 28,
+        },
+        color: '#c67006',
+    },
+    {
         id: 'REACT',
         technology: 'REACT',
         fontSize: {
@@ -374,6 +368,15 @@ export const cloudSkills = [
     },
     //-----------------------------
     {
+        id: 'DOCKER',
+        technology: 'DOCKER',
+        fontSize: {
+            web: 40,
+            mobile: 24,
+        },
+        color: '#38B7ED',
+    },
+    {
         id: 'EXPRESS',
         technology: 'EXPRESS',
         fontSize: {
@@ -399,6 +402,15 @@ export const cloudSkills = [
             mobile: 24,
         },
         color: '#ef4544',
+    },
+    {
+        id: 'REACT-ROUTER',
+        technology: 'REACT ROUTER',
+        fontSize: {
+            web: 40,
+            mobile: 24,
+        },
+        color: '#CA4246',
     },
     {
         id: 'FORMIK',
@@ -436,6 +448,15 @@ export const cloudSkills = [
         },
         color: '#3F2C00',
     },
+    {
+        id: 'SPRING-BOOT',
+        technology: 'SPRING BOOT',
+        fontSize: {
+            web: 40,
+            mobile: 24,
+        },
+        color: '#6DB33E',
+    },
     //-----------------------------
     {
         id: 'PYTHON',
@@ -446,6 +467,24 @@ export const cloudSkills = [
         },
         color: '#4584b6',
     },
+    {
+        id: 'STORYBOOK',
+        technology: 'STORYBOOK',
+        fontSize: {
+            web: 30,
+            mobile: 20,
+        },
+        color: '#F54685',
+    },
+    {
+        id: 'SOCKET-IO',
+        technology: 'SOCKET.IO',
+        fontSize: {
+            web: 30,
+            mobile: 20,
+        },
+        color: '#333333',
+    },
     // {
     //     id: 'PHP',
     //     technology: 'PHP',
@@ -455,33 +494,33 @@ export const cloudSkills = [
     //     },
     //     color: '#777CB5',
     // },
-    {
-        id: 'NETLIFY',
-        technology: 'NETLIFY',
-        fontSize: {
-            web: 30,
-            mobile: 20,
-        },
-        color: '#38B3BB',
-    },
-    {
-        id: 'HEROKU',
-        technology: 'HEROKU',
-        fontSize: {
-            web: 30,
-            mobile: 20,
-        },
-        color: '#6762A6',
-    },
-    {
-        id: 'FIREBASE',
-        technology: 'FIREBASE',
-        fontSize: {
-            web: 30,
-            mobile: 20,
-        },
-        color: '#FFCB2B',
-    },
+    // {
+    //     id: 'NETLIFY',
+    //     technology: 'NETLIFY',
+    //     fontSize: {
+    //         web: 30,
+    //         mobile: 20,
+    //     },
+    //     color: '#38B3BB',
+    // },
+    // {
+    //     id: 'HEROKU',
+    //     technology: 'HEROKU',
+    //     fontSize: {
+    //         web: 30,
+    //         mobile: 20,
+    //     },
+    //     color: '#6762A6',
+    // },
+    // {
+    //     id: 'FIREBASE',
+    //     technology: 'FIREBASE',
+    //     fontSize: {
+    //         web: 30,
+    //         mobile: 20,
+    //     },
+    //     color: '#FFCB2B',
+    // },
     {
         id: 'FIRESTORE',
         technology: 'FIRESTORE',
@@ -573,13 +612,13 @@ export const cloudSkills = [
         },
         color: '#00B0FF',
     },
-    {
-        id: 'CODEIGNITER',
-        technology: 'CODEIGNITER',
-        fontSize: {
-            web: 20,
-            mobile: 16,
-        },
-        color: '#E73800',
-    },
+    // {
+    //     id: 'CODEIGNITER',
+    //     technology: 'CODEIGNITER',
+    //     fontSize: {
+    //         web: 20,
+    //         mobile: 16,
+    //     },
+    //     color: '#E73800',
+    // },
 ];
