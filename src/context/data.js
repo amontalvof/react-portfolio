@@ -146,7 +146,7 @@ export const proj = [
     {
         id: 'TULOGO-E-commerce',
         type: 'practice',
-        tech: 'TypeScript, React, Redux, React Query, JWT, Formik, React Query, Styled Components, Bootstrap, Node, Express, MySQL, Heroku, Netlify',
+        tech: 'TypeScript, React, Redux, React Query, JWT, Formik, React Query, Styled Components, Bootstrap, Node, Express, MySQL, Railway, Netlify',
         alt: 'TULOGO E-commerce',
         img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1659925838/portfolio/P_TULOGO_sonn0d.jpg',
         url: 'https://tulogo-ecommerce.netlify.app/',
