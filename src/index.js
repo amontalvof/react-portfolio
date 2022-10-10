@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { TimelineProvider } from './context/timeline';
-import { SkillsProvider } from './context/skills';
 import { ProjectsProvider } from './context/projects';
 import { ScrollyProvider } from './context/scrolly';
 
@@ -11,11 +10,9 @@ ReactDOM.render(
     <React.StrictMode>
         <ScrollyProvider>
             <TimelineProvider>
-                <SkillsProvider>
-                    <ProjectsProvider>
-                        <App />
-                    </ProjectsProvider>
-                </SkillsProvider>
+                <ProjectsProvider>
+                    <App />
+                </ProjectsProvider>
             </TimelineProvider>
         </ScrollyProvider>
     </React.StrictMode>,

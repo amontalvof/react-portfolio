@@ -44,62 +44,6 @@ export const education = [
     },
 ];
 
-export const leng = [
-    {
-        id: 1,
-        title: 'HTML5',
-        porciento: 90,
-    },
-    {
-        id: 2,
-        title: 'CSS3',
-        porciento: 80,
-    },
-    {
-        id: 3,
-        title: 'JAVASCRIPT',
-        porciento: 80,
-    },
-    {
-        id: 4,
-        title: 'PHP',
-        porciento: 70,
-    },
-    {
-        id: 5,
-        title: 'PYTHON',
-        porciento: 70,
-    },
-];
-
-export const fram = [
-    {
-        id: 6,
-        title: 'SQL',
-        porciento: 70,
-    },
-    {
-        id: 7,
-        title: 'BOOTSTRAP',
-        porciento: 80,
-    },
-    {
-        id: 8,
-        title: 'REACT',
-        porciento: 80,
-    },
-    {
-        id: 9,
-        title: 'CODEIGNITER',
-        porciento: 70,
-    },
-    {
-        id: 10,
-        title: 'GITHUB',
-        porciento: 90,
-    },
-];
-
 export const proj = [
     {
         id: 'Ever-Transit',

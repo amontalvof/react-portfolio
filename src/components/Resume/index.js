@@ -3,11 +3,10 @@ import { Element } from 'react-scroll';
 import { ResumeWrapper } from './ResumeStyle';
 import Timeline from '../Timeline';
 import Title from '../Title';
-//import Skills from "../Skills";
-//import SkillsCircle from "../SkillsCircle";
-import SkillsCloud from '../SkillsCloud';
+// import SkillsCloud from '../SkillsCloud';
+import SkillsCloud from '../SkillsCloud/WordsCloud';
 
-export default function Resume() {
+export default function Resume({ radiusSize }) {
     return (
         <ResumeWrapper>
             <React.Fragment>
@@ -15,15 +14,19 @@ export default function Resume() {
                     <Title title={'Skills'} />
                 </Element>
                 <br />
-                <SkillsCloud />
+                <SkillsCloud radiusSize={radiusSize} />
                 <br />
-                <Element name="resume">
+                {/* <Element name="resume">
                     <Title title={'Resume'} />
+                </Element> */}
+                <Element name="resume">
+                    <Title title={'Education'} />
                 </Element>
-                <br />
-                <Timeline title={'work experience'} />
+                {/* <br /> */}
+                {/* <Timeline title={'work experience'} /> */}
                 <br />
                 <Timeline title={'education'} />
+                <br />
                 <br />
             </React.Fragment>
         </ResumeWrapper>

@@ -1,10 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { Element } from 'react-scroll';
-import { Button } from 'react-rainbow-components';
+// import { Button } from 'react-rainbow-components';
 import TypedName from './TypedName';
-// import ParticleComponent from './ParticleComponent';
-import { FaFileDownload } from 'react-icons/fa';
+// import { FaFileDownload } from 'react-icons/fa';
 import { ParalaxWrapper } from './ParalaxStyle';
 import bgimg from '../../assets/images/mainBgd.jpg';
 import img from '../../assets/images/mainImgBW.jpeg';
@@ -15,11 +14,6 @@ export default function Hello() {
     return (
         <ParalaxWrapper img={bgimg}>
             <Element name="hello">
-                {/* {window.screen.width > 1024 ? (
-                    <div id="particles">
-                        <ParticleComponent />
-                    </div>
-                ) : null} */}
                 <div className="flex-container">
                     <div
                         className="about_me"
@@ -47,7 +41,8 @@ export default function Hello() {
                             such as JavaScript, TypeScript, Java, and Python.
                         </p>
                         <br />
-                        <Link
+                        <br />
+                        {/* <Link
                             to="./resume/Andy_Montalvo_Resume.pdf"
                             target="_blank"
                             download
@@ -60,7 +55,7 @@ export default function Hello() {
                             >
                                 <FaFileDownload /> &nbsp;Download Resume
                             </Button>
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
             </Element>

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import TagCloud from 'react-tag-cloud';
-// import randomColor from "randomcolor";
 import { SkillsCloudWrapper } from './SkillsCloudStyle';
 import { cloudSkills } from '../../context/data';
 

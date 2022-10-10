@@ -56,7 +56,7 @@ export default function Navbar() {
                             onClickToElement('resume');
                         }}
                     >
-                        Resume
+                        Education
                     </a>
                     <a
                         href="#contact"
