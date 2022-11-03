@@ -130,7 +130,7 @@ export default function Navbar() {
                                 onClickToElement('resume');
                             }}
                         >
-                            Resume
+                            Education
                         </a>
                     </div>
                     <div style={{ padding: ' 10px' }}>

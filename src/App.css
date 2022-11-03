@@ -1,41 +1,69 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 * {
-  font-family: "Quicksand", sans-serif !important;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
-  --lightBlue: #e6fcff;
-  --mainBlue: #00b7d4;
-  --darkBlue: #161569;
-  --mainWhite: #f6fcfc;
-  --darkGrey: #2d3a54;
-  --mainSpacing: 0.3rem;
-  --mainTransition: all 0.3s ease-in-out;
+    --lightBlue: #e6fcff;
+    --mainBlue: #00b7d4;
+    --darkBlue: #161569;
+    --mainWhite: #f6fcfc;
+    --darkGrey: #2d3a54;
+    --mainSpacing: 0.3rem;
+    --mainTransition: all 0.3s ease-in-out;
 }
 
 .scroll-btn {
-  position: fixed;
-  right: 1.5rem;
-  bottom: 1.5rem;
-  background: var(--darkGrey);
-  color: var(--mainBlue);
-  z-index: -100;
-  opacity: 0;
-  transition: all 0.3s linear;
-  font-size: 1.5rem;
-  line-height: 0;
-  padding: 0.3rem 0.5rem;
-  cursor: pointer;
+    position: fixed;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    background: var(--darkGrey);
+    color: var(--mainBlue);
+    z-index: -100;
+    opacity: 0;
+    transition: all 0.3s linear;
+    font-size: 1.5rem;
+    line-height: 0;
+    padding: 0.3rem 0.5rem;
+    cursor: pointer;
 }
 .show-scroll-btn {
-  z-index: 100;
-  opacity: 1;
+    z-index: 100;
+    opacity: 1;
 }
 
 .show-scroll-btn:hover {
-  cursor: pointer;
+    cursor: pointer;
+}
+
+#tag-cloud-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 20px;
+    color: var(--darkBlue);
+}
+
+#words-list-cloud {
+    display: none;
+}
+
+/*=============================================
+MOBILE (XS we review in 320px)
+=============================================*/
+
+@media (max-width: 650px) {
+    #tag-cloud-content {
+        display: none;
+    }
+
+    #words-list-cloud {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 }

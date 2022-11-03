@@ -217,6 +217,16 @@ export const proj = [
         fontSize: '16px',
     },
     {
+        id: 'Global-Superstore',
+        type: 'practice',
+        tech: 'Java, Spring Boot, Thymeleaf, Docker, Render',
+        alt: 'Global Superstore',
+        img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1667448954/portfolio/P_GlobalSuperstore_zina5z.jpg',
+        url: 'https://springboot-global-superstore.onrender.com',
+        github: 'https://github.com/amontalvof/springboot-global-superstore',
+        fontSize: '16px',
+    },
+    {
         id: 'Phone-Ecommerce',
         type: 'practice',
         tech: 'React, Bootstrap, Netlify',

@@ -5,6 +5,7 @@ import Timeline from '../Timeline';
 import Title from '../Title';
 // import SkillsCloud from '../SkillsCloud';
 import SkillsCloud from '../SkillsCloud/WordsCloud';
+import WordsList from '../SkillsCloud/WordsList';
 
 export default function Resume({ radiusSize }) {
     return (
@@ -15,6 +16,7 @@ export default function Resume({ radiusSize }) {
                 </Element>
                 <br />
                 <SkillsCloud radiusSize={radiusSize} />
+                <WordsList />
                 <br />
                 {/* <Element name="resume">
                     <Title title={'Resume'} />
