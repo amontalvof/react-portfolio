@@ -56,7 +56,7 @@ export const proj = [
     {
         id: 'Functions-Store',
         type: 'main',
-        tech: 'Functions-Store is a marketplace of Google Cloud Functions. Developers can install and configure Cloud Functions with a click of a button. I am one of the developers.',
+        tech: 'Functions-Store is a marketplace of Google Cloud Functions. Developers can install and configure Cloud Functions with a click of a button.',
         alt: 'Functions-Store',
         img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1622564268/portfolio/P_FunctionsStore_g6xjwc.jpg',
         url: 'https://app.functions.store',
@@ -72,7 +72,7 @@ export const proj = [
     {
         id: 'Rainbow-Modules',
         type: 'main',
-        tech: 'Rainbow-Modules includes a collection of components, fully integrated with Firebase, that will help you to build apps. I am one of the collaborators.',
+        tech: 'Rainbow-Modules includes a collection of components, fully integrated with Firebase, that will help you to build apps.',
         alt: 'Rainbow-Modules',
         img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1615837557/portfolio/P_RainbowModules_vyl7dv.jpg',
         url: 'https://rainbow-modules.web.app/?path=/story/introduction-getting-started-overview--page',
@@ -81,7 +81,7 @@ export const proj = [
     {
         id: 'React-Rainbow-Components',
         type: 'main',
-        tech: 'React-Rainbow-Components is an open-source project, with a collection of components that will help you build your application in a faster way. I am one of the collaborators.',
+        tech: 'React-Rainbow-Components is an open-source project, with a collection of components that will help you build your application in a faster way.',
         alt: 'React-Rainbow-Components',
         img: 'https://res.cloudinary.com/a03m02f92/image/upload/v1615837254/portfolio/P_ReactRainbow_ka03y9.jpg',
         url: 'https://react-rainbow.io/#/GettingStarted',

@@ -8,10 +8,8 @@ const CardOwn = ({ tech, alt, img, url, github, fontSize }) => {
         <CardOwnWrapper>
             <img src={img} alt={alt} className="image" />
             <div className="middle">
-                <h1 className="para">{alt}</h1>
-                <p className="para" style={{ fontSize }}>
-                    {tech}
-                </p>
+                <h1>{alt}</h1>
+                <p style={{ fontSize }}>{tech}</p>
                 <div className="flex-container">
                     <a
                         href={url}

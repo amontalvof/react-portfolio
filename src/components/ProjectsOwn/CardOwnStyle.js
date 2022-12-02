@@ -36,11 +36,11 @@ export const CardOwnWrapper = styled.div`
     }
 
     h1 {
-        text-decoration: underline;
         font-weight: 900;
         text-transform: uppercase;
         text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
         font-size: 25px;
+        color: var(--mainBlue);
     }
 
     p {
