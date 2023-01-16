@@ -38,7 +38,7 @@ export default function Hello() {
                             well-designed, and efficient code using current best
                             practices. Fast learner, hard worker and team player
                             who is proficient in an array of scripting languages
-                            such as JavaScript, TypeScript, Java, and Python.
+                            such as JavaScript, TypeScript and Java.
                         </p>
                         <br />
                         <br />
