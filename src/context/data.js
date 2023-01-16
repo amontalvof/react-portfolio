@@ -385,15 +385,6 @@ export const cloudSkills = [
         },
         color: '#3B82F6',
     },
-    // {
-    //     id: 'ENZYME',
-    //     technology: 'ENZYME',
-    //     fontSize: {
-    //         web: 40,
-    //         mobile: 24,
-    //     },
-    //     color: '#333333',
-    // },
     {
         id: 'CYPRESS',
         technology: 'CYPRESS',
@@ -420,6 +411,24 @@ export const cloudSkills = [
             mobile: 24,
         },
         color: '#6DB33E',
+    },
+    {
+        id: 'MOCKITO',
+        technology: 'MOCKITO',
+        fontSize: {
+            web: 40,
+            mobile: 24,
+        },
+        color: '#69A126',
+    },
+    {
+        id: 'JUNIT',
+        technology: 'JUNIT',
+        fontSize: {
+            web: 40,
+            mobile: 24,
+        },
+        color: '#D24E47',
     },
     //-----------------------------
     {
@@ -448,51 +457,6 @@ export const cloudSkills = [
             mobile: 20,
         },
         color: '#333333',
-    },
-    // {
-    //     id: 'PHP',
-    //     technology: 'PHP',
-    //     fontSize: {
-    //         web: 30,
-    //         mobile: 20,
-    //     },
-    //     color: '#777CB5',
-    // },
-    // {
-    //     id: 'NETLIFY',
-    //     technology: 'NETLIFY',
-    //     fontSize: {
-    //         web: 30,
-    //         mobile: 20,
-    //     },
-    //     color: '#38B3BB',
-    // },
-    // {
-    //     id: 'HEROKU',
-    //     technology: 'HEROKU',
-    //     fontSize: {
-    //         web: 30,
-    //         mobile: 20,
-    //     },
-    //     color: '#6762A6',
-    // },
-    // {
-    //     id: 'FIREBASE',
-    //     technology: 'FIREBASE',
-    //     fontSize: {
-    //         web: 30,
-    //         mobile: 20,
-    //     },
-    //     color: '#FFCB2B',
-    // },
-    {
-        id: 'FIRESTORE',
-        technology: 'FIRESTORE',
-        fontSize: {
-            web: 30,
-            mobile: 20,
-        },
-        color: '#FFCB2B',
     },
     {
         id: 'MONGODB',
@@ -576,13 +540,4 @@ export const cloudSkills = [
         },
         color: '#00B0FF',
     },
-    // {
-    //     id: 'CODEIGNITER',
-    //     technology: 'CODEIGNITER',
-    //     fontSize: {
-    //         web: 20,
-    //         mobile: 16,
-    //     },
-    //     color: '#E73800',
-    // },
 ];
