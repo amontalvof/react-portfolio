@@ -35,10 +35,10 @@ export default function Hello() {
                         <br />
                         <p>
                             I am a Full-Stack Developer skilled at writing
-                            well-designed, and efficient code using current best
-                            practices. Fast learner, hard worker and team player
-                            who is proficient in an array of scripting languages
-                            such as JavaScript, TypeScript and Java.
+                            well-designed and efficient code using current best
+                            practices. Fast learner, hard worker, and team
+                            player proficient in various languages such as
+                            JavaScript, TypeScript, and Java.
                         </p>
                         <br />
                         <br />
