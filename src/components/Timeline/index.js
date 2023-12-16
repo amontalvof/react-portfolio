@@ -7,10 +7,6 @@ export default function Timeline({ title }) {
 
     return (
         <TimelineWrapper>
-            {/* <div className="timelineTitle">
-                <h3>{title.toUpperCase()}</h3>
-            </div>
-            <br /> */}
             <div className="timeline">
                 {title === 'work experience' ? (
                     <React.Fragment>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Element } from 'react-scroll';
-import { FaLinkedin, FaGithub /*, FaDev */ } from 'react-icons/fa';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import Title from '../Title';
 import { ContactWrapper } from './ContactStyle';
 
@@ -28,9 +28,6 @@ export default function index() {
                 >
                     <FaGithub />
                 </a>
-                {/* <a className="iconosSociales" href="https://dev.to/amontalvof">
-                    <FaDev />
-                </a> */}
             </div>
             <div>
                 <h3>Email: andy.montalvowd@gmail.com</h3>

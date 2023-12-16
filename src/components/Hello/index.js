@@ -1,9 +1,6 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
 import { Element } from 'react-scroll';
-// import { Button } from 'react-rainbow-components';
 import TypedName from './TypedName';
-// import { FaFileDownload } from 'react-icons/fa';
 import { ParalaxWrapper } from './ParalaxStyle';
 import bgimg from '../../assets/images/mainBgd.jpg';
 import img from '../../assets/images/mainImgBW.jpeg';
@@ -27,7 +24,6 @@ export default function Hello() {
                             <img src={img} alt="profile" />
                         </div>
                     </div>
-
                     <div style={{ flexBasis: '700px' }}>
                         <div className="titleNameContainer">
                             <TypedName />
@@ -42,20 +38,6 @@ export default function Hello() {
                         </p>
                         <br />
                         <br />
-                        {/* <Link
-                            to="./resume/Andy_Montalvo_Resume.pdf"
-                            target="_blank"
-                            download
-                            style={{ textDecoration: 'none' }}
-                        >
-                            <Button
-                                style={{ fontSize: '1.1rem' }}
-                                variant="outline-brand"
-                                className="rainbow-m-around_medium"
-                            >
-                                <FaFileDownload /> &nbsp;Download Resume
-                            </Button>
-                        </Link> */}
                     </div>
                 </div>
             </Element>
