@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
 import { Application } from 'react-rainbow-components';
 import Navbar from './components/Navbar';
 import Resume from './components/Resume';
@@ -21,18 +20,14 @@ const theme = {
 
 function App() {
     return (
-        <Router>
-            <React.Fragment>
-                <Application theme={theme}>
-                    <Navbar />
-                    <Hello />
-                    <ProjectsOwn />
-                    <Resume />
-                    <Contact />
-                    <ScrollButton />
-                </Application>
-            </React.Fragment>
-        </Router>
+        <Application theme={theme}>
+            <Navbar />
+            <Hello />
+            <ProjectsOwn />
+            <Resume />
+            <Contact />
+            <ScrollButton />
+        </Application>
     );
 }
 
