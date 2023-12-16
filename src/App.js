@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Application } from 'react-rainbow-components';
-import './App.css';
 import Navbar from './components/Navbar';
 import Resume from './components/Resume';
 import Hello from './components/Hello';
 import ProjectsOwn from './components/ProjectsOwn';
 import Contact from './components/Contact';
 import ScrollButton from './components/ScrollButton';
+import './App.css';
 
 const theme = {
     rainbow: {
